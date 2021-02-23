@@ -1,6 +1,6 @@
-# portfoliokhadija
+# portfoliokadi
 
-> Portfolio de Khadija Boudjemline 
+> Portfolio de Khadija Boudjemline
 
 ## Build Setup
 
