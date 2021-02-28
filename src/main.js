@@ -6,6 +6,17 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+
+// Import de Bootstrap-vue
+import BootstrapVue from 'bootstrap-vue'
+// Bibliothèque de Bootstrap-vue
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+// Utilisation de Bootstrap-vue
+Vue.use(BootstrapVue);
+Vue.config.productionTip = false
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
@@ -13,3 +24,5 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+

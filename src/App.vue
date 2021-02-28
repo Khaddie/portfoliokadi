@@ -1,23 +1,185 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
+  <div id="app" ref="root">
+    <nav>
+      <button class="menubtn" v-on:click="menuclick">
+      <span>
+      </span>
+      </button>
+      <div class="menu" style="display: none" ref="menu">
+        <div class="image">
+          <div data-project-no="1" class="item item--1 w-100" style=" opacity: 1; z-index: 89;">
+            <img class="w-100" src="./assets/a.jpg" alt="">
+          </div>
+        </div>
+        <div class="list">
+          <div class="project-nb">
+            <p>Découvrez mes réalisations en un clic !</p>
+          </div>
+          <ul>
+            <li><a href="#" data-project-no="1">Project 1</a></li>
+            <li><a href="#" data-project-no="2">Project 2</a></li>
+            <li><a href="#" data-project-no="3">Project 3</a></li>
+            <li><a href="#" data-project-no="4">Project 4</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <router-view/>
   </div>
 </template>
-
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  methods: {
+    menuclick: function (event) {
+      if (this.$root.$el.classList.toggle('menu-open')) {
+        this.$refs["menu"].style.display = 'grid';
+      } else {
+        this.$refs["menu"].style.display = 'none';
+      }
+
+    },
+  }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+/**Style de l'intérieur du menu*/
+ul{
+  list-style: none;
 }
+
+
+.image, .list {
+  height: 100%;
+}
+
+.image {
+  position: relative;
+}
+
+.item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+}
+
+.list {
+  padding: 40px;
+}
+
+.project-nb {
+  margin-bottom: 100px;
+}
+
+li {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+a {
+  transition: opacity 300ms ease;
+  width: fit-content;
+}
+
+a:hover {
+  opacity: .4;
+}
+
+
+/**FIN*/
+nav {
+
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+nav::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  background: #F6E7DB;
+  border-radius: 50%;
+  transition: transform 400ms ease;
+  z-index: 10;
+}
+
+nav::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  background: white;
+  border-radius: 50%;
+  transition: transform 400ms ease-in;
+  z-index: 40;
+}
+
+nav:hover::after {
+  transform: scale(1.2);
+}
+
+.menubtn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  z-index: 140;
+  border: 3px solid #EDD9CA;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: #DBBCA8;
+}
+
+.menubtn::before {
+  content: '';
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: #DBBCA8 ;
+
+}
+
+
+.menu-open nav::before {
+  transform: scale(50);
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: white;
+
+  z-index: 20;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
 </style>
