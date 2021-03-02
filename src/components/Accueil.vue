@@ -5,10 +5,11 @@
     <div class="accueil1">
 
       <div class="textaccueil">
-        <h1>BIENVENUE</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse aliquid laboriosam minima ex praesentium
-          recusandae reprehenderit unde sit tempore atque aut commodi quae expedita corrupti, dignissimos architecto.
-          Eius, maiores ad?</p>
+        <h1>
+          <div class="hellotext">Hello,</div>
+          je suis Khadija Boudjemline
+        </h1>
+        <p>Développeuse Front-End | Webdesigner </p>
       </div>
 
       <div class="imgaccueil w-100">
@@ -80,10 +81,43 @@
       </div>
 
 
-      <div class="competences">
+      <div class="competence">
         <h4>Mes compétences</h4>
-        <div>
+        <div class="competences">
+          <div>
+            Développement
 
+            <ul>
+              <li>Maquettes graphiques</li>
+              <li>Création de chartes graphiques, logos..</li>
+              <li>Utilisation de la suite Adobe</li>
+              <li>Création de bannières publicitaires</li>
+              <li>Réalisation de montages vidéos</li>
+              <li>Flyers, cartes de visite...</li>
+            </ul>
+          </div>
+          <div>
+            Développement
+            <ul>
+              <li>Maquettes graphiques</li>
+              <li>Création de chartes graphiques, logos..</li>
+              <li>Utilisation de la suite Adobe</li>
+              <li>Création de bannières publicitaires</li>
+              <li>Réalisation de montages vidéos</li>
+              <li>Flyers, cartes de visite...</li>
+            </ul>
+          </div>
+          <div>
+            Développement
+            <ul>
+              <li>Maquettes graphiques</li>
+              <li>Création de chartes graphiques, logos..</li>
+              <li>Utilisation de la suite Adobe</li>
+              <li>Création de bannières publicitaires</li>
+              <li>Réalisation de montages vidéos</li>
+              <li>Flyers, cartes de visite...</li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -168,23 +202,73 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+/**COMPETENCES*/
+.competence {
+  background-color: #DBBCA8;
+  padding: 5%;
+  margin-bottom: 8%;
+}
+
+.competence h4 {
+  font-size: 2rem;
+  font-family: Dancing Script, cursive;
+  text-align: center;
+  margin-bottom: 5%;
+  color: white;
+  font-weight: bold;
+}
+
+.competences {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.competences div {
+  padding: 3%;
+  background-color: white;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+/**FIN COMPETENCES*/
+
+
 .accueilmarge {
   margin-left: 40px;
   margin-right: 40px;
 }
 
 /*DEBUT ACCUEIL*/
-.imgaccueil img {
-  height: 113%;
-  float: right;
+
+.textaccueil h1 {
+  align-self: center;
+  font-family: Lato, sans-serif;
+  font-size: 4rem;
+}
+
+.hellotext {
+  align-self: center;
+  font-family: Lato, sans-serif;
+  font-size: 6rem;
 }
 
 .textaccueil {
-  align-self: center;
+  padding: 4rem;
+  margin-top: 10%;
+}
+
+.textaccueil p {
+  font-family: Lato, sans-serif;
+  font-size: 1rem;
+
 }
 
 .accueil1 {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
 }
 
@@ -219,7 +303,8 @@ export default {
   justify-content: center;
   display: flex;
 }
-.btnprojet{
+
+.btnprojet {
   border: 1px solid black;
   text-align: center;
   padding: 1rem 1.5rem;
@@ -275,20 +360,15 @@ export default {
 }
 
 /**FIN PROJET ACCUEIL*/
-/**COMPETENCES*/
-.competences {
-  background-color: #DBBCA8;
-  padding-bottom: 10%;
-}
 
-/**FIN COMPETENCES*/
 
 /*TEXTES*/
 
-h3 {
+.presentation h3 {
   font-size: 1.625rem;
   line-height: 2.313rem;
   color: #DBBCA8;
+  font-family: Montserrat, sans-serif;
 }
 
 strong {
@@ -310,9 +390,6 @@ strong {
   margin-bottom: 0.2rem;
 }
 
-p {
-  font-size: 1rem;
-}
 
 .qualitephrase {
   text-align: center;
@@ -323,6 +400,8 @@ p {
 .titrequalite {
   text-align: center;
   margin-top: 1.5rem;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.2rem;
 }
 
 /*FIN CSS TEXTES*/
@@ -370,5 +449,92 @@ p {
 
 /*FIN PRESENTATION*/
 
+
+@media (max-width: 768px) {
+
+  .accueil {
+    overflow: hidden;
+  }
+
+  .accueilmarge {
+    margin: 0px
+  }
+
+  /***DEBUT*******/
+  .imgaccueil {
+    display: none;
+  }
+
+  .textaccueil {
+    text-align: left;
+  }
+
+  .accueil1 {
+    background-color: #EDD9CA;
+  }
+
+  .textaccueil h1 {
+    font-size: 2rem;
+  }
+
+  .hellotext {
+    font-size: 2.4rem;
+  }
+
+  .textaccueil {
+    padding: 3rem;
+    margin-top: 40%;
+  }
+
+  .textaccueil p {
+    font-size: 0.8rem;
+  }
+
+  /***FIN DEBUT*******/
+  /*PRESENTATION*/
+  .presentation img {
+    display: none
+  }
+
+  .presentation {
+
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+  }
+
+  .textpresentation {
+    margin: 7% 5%;
+    font-size: 3rem;
+    border: none;
+    padding: 0;
+  }
+
+  .presentation h3 {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+  }
+
+  .presentation p {
+    font-size: 1rem;
+  }
+
+  .grid {
+    grid-gap: 0.8rem;
+  }
+
+  .qualitephrase {
+    font-size: 0.5rem;
+  }
+
+  .competences {
+    justify-content: center;
+  }
+
+  .competences div {
+    margin-bottom: 5%;
+  }
+}
 
 </style>

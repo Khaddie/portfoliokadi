@@ -1,30 +1,41 @@
 <template>
   <div id="app" ref="root">
-    <nav>
-      <button class="menubtn" v-on:click="menuclick">
+    <div>
+      <div class="logo">
+        <!-- <img src="./assets/a.jpg" alt=""> -->
+      </div>
+      <div>
+        <nav>
+          <button class="menubtn" v-on:click="menuclick">
       <span>
       </span>
-      </button>
-      <div class="menu" style="display: none" ref="menu">
-        <div class="image">
-          <div data-project-no="1" class="item item--1 w-100" style=" opacity: 1; z-index: 89;">
-            <img class="w-100" src="./assets/a.jpg" alt="">
-          </div>
-        </div>
-        <div class="list">
-          <div class="project-nb">
-            <p>Découvrez mes réalisations en un clic !</p>
-          </div>
-          <ul>
-            <li><a href="#" data-project-no="1">Project 1</a></li>
-            <li><a href="#" data-project-no="2">Project 2</a></li>
-            <li><a href="#" data-project-no="3">Project 3</a></li>
-            <li><a href="#" data-project-no="4">Project 4</a></li>
+          </button>
+          <div class="menu" style="display: none" ref="menu" v-on:click="menuclick">
+            <div class="image">
+              <div data-project-no="1" class="item item--1 w-100" style=" opacity: 1; z-index: 89;">
+                <img class="w-100" src="./assets/a.jpg" alt="">
+              </div>
+            </div>
+            <div class="list">
+              <ul v-on:click="fermeture">
+                <router-link to="/Logofolio">
+                  <li><a href="#" data-project-no="1">Logofolio</a></li>
+                </router-link>
+                <router-link to="/Sitesweb">
+                <li ref="fermli"><a href="#" data-project-no="2">Sites Web</a></li>
+                </router-link>
+                <li><a href="#" data-project-no="3">Créations graphiques</a></li>
+                <li><a href="#" data-project-no="4">À propos</a></li>
+                <li><a href="#" data-project-no="5">Contact</a></li>
 
-          </ul>
-        </div>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
-    </nav>
+    </div>
+
 
     <router-view/>
   </div>
@@ -41,15 +52,30 @@ export default {
       }
 
     },
+    fermeture: function (fermer) {
+      this.$refs["menu"].style.display = 'none';
+
+    }
   }
 }
 </script>
 
 <style>
 
+.logo {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+}
+
 /**Style de l'intérieur du menu*/
-ul{
+.menu ul {
   list-style: none;
+  color: #DBBCA8;
+
 }
 
 
@@ -73,25 +99,29 @@ ul{
 }
 
 .list {
-  padding: 40px;
+  margin-top: 20%;
+  padding: 20px;
 }
 
-.project-nb {
-  margin-bottom: 100px;
-}
 
-li {
+.menu li {
   font-size: 40px;
   margin-bottom: 40px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
 }
 
-a {
+.menu a {
   transition: opacity 300ms ease;
   width: fit-content;
+  text-decoration: none;
+  color: black;
 }
 
-a:hover {
+.menu a:hover {
   opacity: .4;
+  text-decoration: none;
+  color: #DBBCA8;
 }
 
 
@@ -159,7 +189,7 @@ nav:hover::after {
   position: absolute;
   top: 0;
   left: 0;
-  box-shadow: #DBBCA8 ;
+  box-shadow: #DBBCA8;
 
 }
 
