@@ -89,6 +89,10 @@
           l'inspiration joueraient un rôle plus important à travers le mélange d'articles et de tutoriels.</p>
       </div>
 
+
+      <div class="voir">
+        <h4>Voir d'autres réalisations...</h4>
+      </div>
       <div class="autresprojets">
         <div>
           <img width="300" src="../pageprojets/../../assets/projet1.jpg" alt="">
@@ -114,6 +118,13 @@ export default {
 </script>
 
 <style scoped>
+
+
+.voir h4{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+}
 img {
   max-width: 100%;
 }
@@ -175,7 +186,7 @@ button {
   max-width: 650px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 40px;
+  padding-top: 110px;
   padding-bottom: 40px;
 }
 
@@ -285,6 +296,8 @@ h1 {
 video {
   max-width: 70%;
   border-radius: 20px;
+  border: 0px;
+  box-shadow: #F7F5F0;
 }
 
 @media (max-width: 768px) {

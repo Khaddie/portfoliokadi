@@ -225,7 +225,7 @@ export default {
 
 
 .competences div:hover{
-  transform: scale(0.5);
+  transform: scale(0.9);
 }
 .logiciels{
   display: grid;
