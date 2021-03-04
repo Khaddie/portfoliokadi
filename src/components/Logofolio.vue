@@ -1,56 +1,58 @@
 <template>
-  <div class="logofolio">
 
 
-    <div class="explicationpage">
-      <h1>L O G O F O L I O</h1>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-        et
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-        consetetur sadipscing</p>
-    </div>
-<div>
-
-    <div class="image-hero-annabelle">
-      <div class="title-position">
-        <h3 class="title-cases">okfonzg</h3>
+    <div class="logofolio">
+      <div class="explicationpage">
+        <h1>L O G O F O L I O</h1>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+          et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+          clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+          consetetur sadipscing</p>
       </div>
-      <div class="subtitle-project">
-        <p>efnlefnle</p>
-      </div>
-    </div>
+      <div>
 
-</div>
-    <div class="camarche">
-      <div class="mo">
+        <div class="image-hero-annabelle">
+          <div class="title-position">
+            <h3 class="title-cases">okfonzg</h3>
+          </div>
+          <div class="subtitle-project">
+            <p>efnlefnle</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="camarche">
+        <div class="mo">
           <img src="https://placekitten.com/200/200" alt="">
           <div class="ok">
             Voir le détail
           </div>
-      </div>
-      <div class="mo">
+        </div>
+        <div class="mo">
           <img src="https://placekitten.com/200/200" alt="">
           <div class="ok">
             Voir le détail
           </div>
-      </div>
-      <div class="mo">
+        </div>
+        <div class="mo">
 
           <img src="https://placekitten.com/200/200" alt="">
           <div class="ok">
             Voir le détail
           </div>
 
+        </div>
+
       </div>
+
 
     </div>
 
-
-  </div>
 </template>
 
 <script>
+
 export default {
   name: "Logofolio",
 }
@@ -88,6 +90,7 @@ export default {
   font-weight: 500;
   text-decoration: none;
 }
+
 .subtitle-project {
   position: relative;
   z-index: 1;
@@ -110,7 +113,7 @@ export default {
   display: flex;
   margin-top: 71%;
   opacity: 0;
-  width:300px;
+  width: 300px;
 
 }
 
@@ -118,18 +121,20 @@ export default {
   opacity: 1;
 }
 
-.camarche{
+.camarche {
   display: flex;
   flex-wrap: wrap;
 }
+
 .mo {
   border-radius: 0.25rem;
   overflow: hidden;
   color: white;
   position: relative;
 
-width: 200px;
-height: 200px;}
+  width: 200px;
+  height: 200px;
+}
 
 
 img {
@@ -151,9 +156,10 @@ h1 {
 .logofolio {
   margin: 10%;
 }
+
 @media (max-width: 768px) {
 
-  .fondprojet{
+  .fondprojet {
     margin: 0;
   }
 

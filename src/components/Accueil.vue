@@ -1,7 +1,6 @@
 <template>
   <div class="accueil">
-
-
+<chargement/>
     <div class="accueil1">
 
       <div class="textaccueil">
@@ -208,11 +207,14 @@
 </template>
 
 <script>
-
+import Chargement from "../Chargement";
 export default {
   name: 'Accueil',
   data() {
     return {}
+  },
+  components:{
+   Chargement,
   }
 }
 </script>
@@ -222,7 +224,20 @@ export default {
 
 /*EFFETS*/
 
+.mail p:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0%;
+  left: 0px;
+  height: 4px;
+  transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
+  background: #DBBCA8;
+}
 
+.mail p:hover:after {
+  width: 100%;
+}
 
 .competences div:hover{
   transform: scale(0.9);
@@ -355,6 +370,9 @@ h5 {
   font-weight: 500;
   color: #DBBCA8;
   margin-top: 1.5rem;
+  position: relative;
+
+
 }
 
 .contactaccueil {

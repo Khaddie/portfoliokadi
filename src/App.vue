@@ -1,8 +1,10 @@
 <template>
   <div id="app" ref="root">
+
     <div>
       <div class="logo">
-        <router-link to="/">
+        <router-link to="/" >
+
          <img src="./assets/23931.png" alt="">
         </router-link>
       </div>
@@ -58,7 +60,7 @@ export default {
       this.$refs["menu"].style.display = 'none';
 
     }
-  }
+  },
 }
 </script>
 

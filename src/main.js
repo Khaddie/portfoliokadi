@@ -3,6 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import AOS from "aos";
+import "aos/dist/aos.css"
+import Chargement from "./Chargement";
 
 Vue.config.productionTip = false
 
@@ -13,16 +16,23 @@ import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+
 // Utilisation de Bootstrap-vue
 Vue.use(BootstrapVue);
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
+  created() {
+    AOS.init();
+  },
   el: '#app',
   router,
-  components: { App },
+  components: {App},
   template: '<App/>'
 })
-
-
+new Vue({
+  router,
+  components: {Chargement},
+  template: '<chargement/>'
+})

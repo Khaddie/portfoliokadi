@@ -1,8 +1,8 @@
 <template>
   <div class="projet1">
+    <chargement/>
 
-
-    <div class="fondprojet">
+    <div class="fondprojet" data-aos="flip-right">
       <div class="imgprojprincipale">
         <img src="../pageprojets/../../assets/image.jpg" alt="">
       </div>
@@ -11,7 +11,7 @@
           Site vitrine de pâtisseries </h1>
         <div class="traitprojet"></div>
 
-        <div class="grid">
+        <div class="grid" data-aos="fade-up">
           <div class="texteprojet">
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmo
               tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
@@ -40,7 +40,7 @@
       </div>
 
 
-      <div class="imgdemarque">
+      <div class="imgdemarque" data-aos="fade-up">
         <div class="traitprojet1"></div>
 
         <h4>L'HARMONIE COLORÉE</h4>
@@ -49,18 +49,18 @@
           tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
           os et accusam .</p>
 
-        <img src="../pageprojets/../../assets/harmoniecoloree.jpg" alt="">
+        <img data-aos="zoom-in" src="../pageprojets/../../assets/harmoniecoloree.jpg" alt="">
         <blockquote>" Une harmonie colorée simple et minimaliste <br/> pour un style épuré et classe ! "</blockquote>
       </div>
 
 
       <div class="interfaceprojet">
 
-        <div class="explicationinterface">
+        <div class="explicationinterface" data-aos="zoom-in">
 
           <h4>Interface du site</h4>
           <div class="traitprojet1"></div>
-          <p class="mt-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmo
+          <p class="mt-3" >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmo
             tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
             os et accusam .</p>
         </div>
@@ -68,7 +68,7 @@
 
       <div class="presentationinterface">
 
-        <video controls>
+        <video controls data-aos="fade-up">
 
           <source src="../pageprojets/../../assets/video/cakebeauty.mp4"
                   type="video/mp4">
@@ -76,7 +76,7 @@
 
       </div>
 
-      <div class="defbesoins">
+      <div class="defbesoins" data-aos="fade-up">
 
         <h4>Découverte et narration</h4>
         <p>
@@ -91,7 +91,7 @@
 
 
       <div class="voir">
-        <h4>Voir d'autres réalisations...</h4>
+        <h4></h4>
       </div>
       <div class="autresprojets">
         <div>
@@ -112,19 +112,16 @@
 </template>
 
 <script>
+import Chargement from "../../Chargement";
 export default {
-  name: "projet1"
+  name: "projet1",
+  components:{
+    Chargement,
+  }
 }
 </script>
 
 <style scoped>
-
-
-.voir h4{
-  margin-top: 50px;
-  text-align: center;
-  font-size: 20px;
-}
 img {
   max-width: 100%;
 }
@@ -277,8 +274,8 @@ h1 {
 
 .fondprojet {
   background-color: #F7F5F0;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
   margin-top: 8%;
   padding-bottom: 10%;
   padding-top: 10%;
@@ -350,7 +347,7 @@ video {
   }
 
   .defbesoins {
-    margin: 50px;
+    padding: 60px;
   }
 
   .autresprojets div {
@@ -358,7 +355,7 @@ video {
     width: 70%;
   }
   .autresprojets img{
-    height: 180px;
+    height:160px;
   }
 
   .explicationinterface h4 {
