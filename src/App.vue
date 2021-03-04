@@ -2,7 +2,9 @@
   <div id="app" ref="root">
     <div>
       <div class="logo">
-        <!-- <img src="./assets/a.jpg" alt=""> -->
+        <router-link to="/">
+         <img src="./assets/23931.png" alt="">
+        </router-link>
       </div>
       <div>
         <nav>
@@ -13,7 +15,7 @@
           <div class="menu" style="display: none" ref="menu" v-on:click="menuclick">
             <div class="image">
               <div data-project-no="1" class="item item--1 w-100" style=" opacity: 1; z-index: 89;">
-                <img class="w-100" src="./assets/a.jpg" alt="">
+                <img class="imgmenu w-100" src="./assets/a.jpg" alt="">
               </div>
             </div>
             <div class="list">
@@ -62,9 +64,13 @@ export default {
 
 <style>
 
-.logo {
-  width: 70px;
-  height: 70px;
+
+button:hover{
+  transform: scale(0.9);
+}
+.logo img{
+  width: 40px;
+  height: 40px;
   position: fixed;
   top: 20px;
   left: 20px;
@@ -77,8 +83,6 @@ export default {
   color: #DBBCA8;
 
 }
-
-
 .image, .list {
   height: 100%;
 }
@@ -146,10 +150,11 @@ nav::before {
   height: 100%;
   position: absolute;
   display: block;
-  background: #F6E7DB;
-  border-radius: 50%;
+  background: white;
+  border-radius: 100%;
   transition: transform 400ms ease;
   z-index: 10;
+
 }
 
 nav::after {
@@ -160,7 +165,7 @@ nav::after {
   top: 0;
   left: 0;
   display: block;
-  background: white;
+  background: transparent;
   border-radius: 50%;
   transition: transform 400ms ease-in;
   z-index: 40;
@@ -175,10 +180,14 @@ nav:hover::after {
   height: 40px;
   position: absolute;
   z-index: 140;
-  border: 3px solid #EDD9CA;
-  background-color: white;
+border: none;
   border-radius: 50px;
   box-shadow: #DBBCA8;
+  background-image: url("assets/menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  background-color: transparent;
 }
 
 .menubtn::before {
@@ -189,7 +198,7 @@ nav:hover::after {
   position: absolute;
   top: 0;
   left: 0;
-  box-shadow: #DBBCA8;
+
 
 }
 
@@ -205,11 +214,34 @@ nav:hover::after {
   bottom: 0;
   right: 0;
   background: white;
-
   z-index: 20;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
+@media (max-width: 768px) {
+.image{
+  display: none;
+}
 
+ .list{
+   margin-top: 45%;
+ }
+
+  menu li {
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+  }
+
+  .menu a {
+    transition: opacity 300ms ease;
+    width: fit-content;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+  }
+
+}
 </style>

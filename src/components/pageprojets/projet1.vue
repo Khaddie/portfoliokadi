@@ -2,18 +2,17 @@
   <div class="projet1">
 
 
-    <div class="ok">
-
+    <div class="fondprojet">
       <div class="imgprojprincipale">
         <img src="../pageprojets/../../assets/image.jpg" alt="">
       </div>
       <div class="explicationprojet">
-        <h1>Cake Beauty : <br/>
+        <h1>CAKE BEAUTY : <br/>
           Site vitrine de pâtisseries </h1>
         <div class="traitprojet"></div>
 
         <div class="grid">
-          <div class="ook">
+          <div class="texteprojet">
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmo
               tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
               os et accusam et justo duo dolores et ea rebum. Stet
@@ -21,35 +20,37 @@
               Lorem ipsum dolor sit amet,
               consetetur sadipscing</p>
             <p>
-              Défi:
+              <b>Défi : </b>
               Alors que nous avions une multitude d'idées à inclure dans notre plate-forme holistique, notre principal
               défi était de définir et d'exécuter notre MVP initial dans un laps de temps extrêmement court avec des
               ressources très limitées.
             </p>
           </div>
-          <div class="ook">
+          <div class="texteprojet text2">
             <h5>Role</h5>
             <p> dolore magna aliquyam</p>
             <p> dolore magna aliquyam</p>
             <p> dolore magna aliquyam</p>
             <p> dolore magna aliquyam</p>
 
-            <h5>Role</h5>
+            <h5>Lien du site web</h5>
             <p> dolore magna aliquyam</p>
           </div>
         </div>
       </div>
 
 
-      <div class="traitprojet1"></div>
       <div class="imgdemarque">
-        <h5>L'HARMONIE COLORÉE</h5>
+        <div class="traitprojet1"></div>
+
+        <h4>L'HARMONIE COLORÉE</h4>
 
         <p class="mt-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmo
           tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
           os et accusam .</p>
 
-        <img src="" alt="">
+        <img src="../pageprojets/../../assets/harmoniecoloree.jpg" alt="">
+        <blockquote>" Une harmonie colorée simple et minimaliste <br/> pour un style épuré et classe ! "</blockquote>
       </div>
 
 
@@ -58,11 +59,21 @@
         <div class="explicationinterface">
 
           <h4>Interface du site</h4>
-          <div class="traitprojet1 "></div>
+          <div class="traitprojet1"></div>
           <p class="mt-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmo
             tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
             os et accusam .</p>
         </div>
+      </div>
+
+      <div class="presentationinterface">
+
+        <video controls>
+
+          <source src="../pageprojets/../../assets/video/cakebeauty.mp4"
+                  type="video/mp4">
+        </video>
+
       </div>
 
       <div class="defbesoins">
@@ -78,26 +89,18 @@
           l'inspiration joueraient un rôle plus important à travers le mélange d'articles et de tutoriels.</p>
       </div>
 
-
-      <div class="presentationinterface">
-        <div>
-          <img src="../pageprojets/../../assets/imgrelationnelle.svg" alt="">
-        </div>
-      </div>
-
-
       <div class="autresprojets">
         <div>
-          <img src="" alt="">
-          <p>Conception</p>
-          <h4>OZNVPZNZPVNZV</h4>
-          <button>ONOENEPNV</button>
+          <img width="300" src="../pageprojets/../../assets/projet1.jpg" alt="">
+          <p>CONCEPTION DE SITE WEB</p>
+          <h4>Hicking</h4>
+          <button>Voir</button>
         </div>
         <div>
-          <img src="" alt="">
-          <p>Conception</p>
-          <h4>OZNVPZNZPVNZV</h4>
-          <button>ONOENEPNV</button>
+          <img width="300" src="../pageprojets/../../assets/logo1.jpg" alt="">
+          <p>CONCEPTION DE LOGO</p>
+          <h4>Methodiya</h4>
+          <button>Voir</button>
         </div>
       </div>
     </div>
@@ -111,12 +114,49 @@ export default {
 </script>
 
 <style scoped>
+img {
+  max-width: 100%;
+}
+
+.texteprojet p {
+  font-family: Lato, sans-serif;
+  font-size: 1rem;
+}
+
+.autresprojets p {
+  font-family: Lato, sans-serif;
+  font-size: 0.8rem;
+  margin-top: 20px;
+  letter-spacing: 8px;
+  max-width: 100%;
+}
+
+.autresprojets h4 {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+button {
+  border: 1px solid black;
+  text-align: center;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: white;
+  margin-top: 1rem;
+
+}
 
 .autresprojets div {
   margin-left: 30px;
   padding: 5%;
   background-color: white;
   border-radius: 10px;
+}
+.autresprojets img{
+  height: 210px;
+  width: 300px;
 }
 
 .autresprojets {
@@ -125,6 +165,8 @@ export default {
   flex-direction: row;
   flex-wrap: wrap-reverse;
   align-items: center;
+  text-align: center;
+  margin-top: 50px;
 
 }
 
@@ -139,6 +181,15 @@ export default {
 
 .imgdemarque {
   text-align: center;
+  margin-top: 15px;
+
+}
+
+h4 {
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  letter-spacing: 5px;
+  font-weight: 600;
 }
 
 .presentationinterface img {
@@ -159,8 +210,16 @@ export default {
   text-align: center;
 }
 
+blockquote {
+  font-size: 35px;
+  font-family: Montserrat, sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin: 10%;
+}
 
-.ook {
+
+.texteprojet {
   flex: 1;
   padding-left: 10%;
 }
@@ -178,31 +237,126 @@ export default {
 .traitprojet {
   border-bottom: 4px solid black;
   width: 10%;
+  border-radius: 5px;
+}
+
+.imgdemarque .traitprojet1 {
+  margin-top: 10%;
+  margin-bottom: 10px;
+  border-bottom: 4px solid #DBBCA8;
+  width: 6%;
 }
 
 .traitprojet1 {
-  border-bottom: 4px solid #CE7E5D;
+  border-bottom: 4px solid #DBBCA8;
   width: 6%;
   margin-left: 48%;
+  border-radius: 5px;
+
 }
 
 h1 {
   font-size: 40px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  line-height: 50px;
   font-family: Montserrat, sans-serif;
 }
 
-.imgprojprincipale img {
-  max-width: 100%;
-}
 
-.ok {
-  background-color: #F6E7DB;
+.fondprojet {
+  background-color: #F7F5F0;
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 8%;
-  padding-top: 2%;
+  padding-bottom: 10%;
+  padding-top: 10%;
   padding-left: 10%;
   padding-right: 10%;
 
 }
+
+.logoo img {
+  max-width: 80%;
+  width: 300px;
+
+}
+
+video {
+  max-width: 70%;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+
+  .fondprojet {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .projet1 {
+    background-color: #F7F5F0;
+  }
+
+  .explicationprojet {
+    margin: 5%;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: left;
+    line-height: 32px;
+    letter-spacing: 0px;
+  }
+
+  .traitprojet {
+    display: none;
+  }
+
+  .grid {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .text2 {
+    margin-top: 20px;
+  }
+
+  blockquote {
+    font-size: 21px;
+  }
+
+
+  .autresprojets {
+    flex-direction: column;
+  }
+
+  video {
+    max-width: 87%;
+  }
+
+  .defbesoins {
+    margin: 50px;
+  }
+
+  .autresprojets div {
+    margin: 15px  0px;
+    width: 70%;
+  }
+  .autresprojets img{
+    height: 180px;
+  }
+
+  .explicationinterface h4 {
+    font-size: 24px;
+
+  }
+
+  h5 {
+    margin: 20px 0 20px 0;
+  }
+
+}
+
 </style>

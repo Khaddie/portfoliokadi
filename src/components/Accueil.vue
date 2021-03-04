@@ -43,7 +43,7 @@
         <div class="grid">
           <div>
             <div class="imgqualite">
-              <img class="w-50" src="../assets/imgcreativite.svg" alt="">
+              <img class="w-50" src="../assets/imgcreative.svg" alt="">
             </div>
             <p class="titrequalite">Créative</p>
             <p class="qualitephrase">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
@@ -85,8 +85,26 @@
         <h4>Mes compétences</h4>
         <div class="competences">
           <div>
-            Développement
+            <div class="imgcompetence">
+            <img src="../assets/iconedev.svg" alt="">
+            </div>
+            <h5>DÉVELOPPEMENT</h5>
+            <ul>
+              <li>Intégration HTML/CSS/JS</li>
+              <li>Intégration avec CMS</li>
+              <li>Gestion de flux (ShoppingFeed)</li>
+              <li>Intégration avec Framework (Vues, BootstrapVue...)</li>
+              <li>Développement d'applications web</li>
+              <li>Php, Javascript, MySQL</li>
+            </ul>
+          </div>
 
+
+          <div>
+            <div class="imgcompetence">
+            <img src="../assets/iconeweb.svg" alt="">
+            </div>
+            <h5>WEBDESIGN</h5>
             <ul>
               <li>Maquettes graphiques</li>
               <li>Création de chartes graphiques, logos..</li>
@@ -96,26 +114,21 @@
               <li>Flyers, cartes de visite...</li>
             </ul>
           </div>
+
+
           <div>
-            Développement
+            <div class="imgcompetence">
+            <img src="../assets/iconecom.svg" alt="">
+            </div>
+            <h5>COMMUNICATION</h5>
             <ul>
-              <li>Maquettes graphiques</li>
-              <li>Création de chartes graphiques, logos..</li>
-              <li>Utilisation de la suite Adobe</li>
-              <li>Création de bannières publicitaires</li>
-              <li>Réalisation de montages vidéos</li>
-              <li>Flyers, cartes de visite...</li>
-            </ul>
-          </div>
-          <div>
-            Développement
-            <ul>
-              <li>Maquettes graphiques</li>
-              <li>Création de chartes graphiques, logos..</li>
-              <li>Utilisation de la suite Adobe</li>
-              <li>Création de bannières publicitaires</li>
-              <li>Réalisation de montages vidéos</li>
-              <li>Flyers, cartes de visite...</li>
+              <li>Concevoir une stratégie de communication crédible</li>
+              <li>Animation de réseaux sociaux </li>
+              <li>Rédaction SEO</li>
+              <li>Mise en place d'actions de communication </li>
+              <li>Audits de sites web</li>
+              <li>Élaboration d'infographies</li>
+
             </ul>
           </div>
         </div>
@@ -127,7 +140,7 @@
 
         <div class="projet1 mt-5">
           <div class="imgprojets">
-            <img src="../assets/a.jpg" alt="">
+            <img src="../assets/projet1.jpg" alt="">
           </div>
           <div class="carre">
           </div>
@@ -154,7 +167,7 @@
 
             </div>
             <div class="imgprojets">
-              <img src="../assets/a.jpg" alt="">
+              <img src="../assets/logo1.jpg" alt="">
             </div>
           </div>
 
@@ -168,11 +181,15 @@
 
       <div class="technologies">
         <h4>Je travaille avec ...</h4>
-        <div class="framework">
-          <p>okcoc</p>
-        </div>
         <div class="logiciels">
-          <p>docnnconedc</p>
+            <div><img src="../assets/logologiciels/adobexd.png" alt=""></div>
+            <div><img src="../assets/logologiciels/aftereffect.png" alt=""></div>
+            <div><img src="../assets/logologiciels/photoshop.png" alt=""></div>
+            <div><img src="../assets/logologiciels/illustrator.png" alt=""></div>
+          <div><img src="../assets/logologiciels/github.png" alt=""></div>
+          <div><img src="../assets/logologiciels/visualstudio.png" alt=""></div>
+          <div><img src="../assets/logologiciels/scancube.jpg" alt=""></div>
+
         </div>
       </div>
 
@@ -203,28 +220,79 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+/*EFFETS*/
+
+
+
+.competences div:hover{
+  transform: scale(0.5);
+}
+.logiciels{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  justify-content: center;
+  grid-row-gap: 1em;
+}
+
+.logiciels img{
+  width: 30%;
+}
 /**COMPETENCES*/
+
+.imgcompetence{
+  display: flex;
+  justify-content: center;
+}
+.imgcompetence img {
+  width: 60px;
+  height: 50px;
+}
+
 .competence {
   background-color: #DBBCA8;
   padding: 5%;
   margin-bottom: 8%;
 }
 
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+
+}
+
+ul li {
+
+  font-family: Lato, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+
+}
+
+h5 {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 15px;
+  font-family: 'Montserrat',sans-serif;
+}
+
 .competence h4 {
   font-size: 2rem;
-  font-family: Dancing Script, cursive;
+  font-family: Montserrat, sans-serif;
   text-align: center;
   margin-bottom: 5%;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .competences {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-
+  align-items: center;
 }
 
 .competences div {
@@ -376,6 +444,10 @@ strong {
   color: #DBBCA8;
 
 }
+.mesprojets img{
+  width: 800px;
+  height: 600px;
+}
 
 .mesprojets h4 {
   font-family: Lato, sans-serif;
@@ -400,8 +472,9 @@ strong {
 .titrequalite {
   text-align: center;
   margin-top: 1.5rem;
-  font-family: "Dancing Script", cursive;
-  font-size: 1.2rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 /*FIN CSS TEXTES*/
@@ -421,6 +494,16 @@ strong {
 
 .grid img {
   width: 20%;
+}
+
+.qualite h4, .technologies h4 {
+  font-family: Montserrat, sans-serif;
+  font-size: 35px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.technologies h4 {
+  margin-top: 7%;
 }
 
 .grid {
@@ -535,6 +618,14 @@ strong {
   .competences div {
     margin-bottom: 5%;
   }
+
+
+  .qualite h4, .technologies h4 {
+   font-size: 20px;
+  }
+  .competence h4 {
+     font-size: 1rem;}
+
 }
 
 </style>
