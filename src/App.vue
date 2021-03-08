@@ -1,6 +1,5 @@
 <template>
   <div id="app" ref="root">
-
     <div>
       <div class="logo">
         <router-link to="/" >
@@ -30,9 +29,7 @@
                 </router-link>
                 <li><a href="#" data-project-no="3">Créations graphiques</a></li>
                 <li><a href="#" data-project-no="4">À propos</a></li>
-                <li><a href="#" data-project-no="5">Contact</a></li>
-
-
+                <li><a href="mailto:khaddie90@gmail.com" data-project-no="5">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -59,13 +56,12 @@ export default {
     fermeture: function (fermer) {
       this.$refs["menu"].style.display = 'none';
 
-    }
-  },
+    },
+  }
 }
 </script>
 
 <style>
-
 
 
 

@@ -1,6 +1,6 @@
 <template>
   <div class="accueil">
-<chargement/>
+    <chargement/>
     <div class="accueil1">
 
       <div class="textaccueil">
@@ -85,7 +85,7 @@
         <div class="competences">
           <div>
             <div class="imgcompetence">
-            <img src="../assets/iconedev.svg" alt="">
+              <img src="../assets/iconedev.svg" alt="">
             </div>
             <h5>DÉVELOPPEMENT</h5>
             <ul>
@@ -101,7 +101,7 @@
 
           <div>
             <div class="imgcompetence">
-            <img src="../assets/iconeweb.svg" alt="">
+              <img src="../assets/iconeweb.svg" alt="">
             </div>
             <h5>WEBDESIGN</h5>
             <ul>
@@ -117,14 +117,14 @@
 
           <div>
             <div class="imgcompetence">
-            <img src="../assets/iconecom.svg" alt="">
+              <img src="../assets/iconecom.svg" alt="">
             </div>
             <h5>COMMUNICATION</h5>
             <ul>
               <li>Concevoir une stratégie de communication crédible</li>
-              <li>Animation de réseaux sociaux </li>
+              <li>Animation de réseaux sociaux</li>
               <li>Rédaction SEO</li>
-              <li>Mise en place d'actions de communication </li>
+              <li>Mise en place d'actions de communication</li>
               <li>Audits de sites web</li>
               <li>Élaboration d'infographies</li>
 
@@ -177,29 +177,7 @@
         </div>
       </div>
 
-
-      <div class="technologies">
-        <h4>Je travaille avec ...</h4>
-        <div class="logiciels">
-            <div><img src="../assets/logologiciels/adobexd.png" alt=""></div>
-            <div><img src="../assets/logologiciels/aftereffect.png" alt=""></div>
-            <div><img src="../assets/logologiciels/photoshop.png" alt=""></div>
-            <div><img src="../assets/logologiciels/illustrator.png" alt=""></div>
-          <div><img src="../assets/logologiciels/github.png" alt=""></div>
-          <div><img src="../assets/logologiciels/visualstudio.png" alt=""></div>
-          <div><img src="../assets/logologiciels/scancube.jpg" alt=""></div>
-
-        </div>
-      </div>
-
-      <div class="contactaccueil">
-        <div class="iconecontact">
-          <img src="../assets/iconecontact.svg" alt="">
-        </div>
-        <div class="mail">
-          <p>khaddie90@gmail.com</p>
-        </div>
-      </div>
+<my-footer></my-footer>
 
     </div>
 
@@ -207,14 +185,18 @@
 </template>
 
 <script>
+import Footer from "../Footer";
+
 import Chargement from "../Chargement";
+
 export default {
   name: 'Accueil',
   data() {
     return {}
   },
-  components:{
-   Chargement,
+  components: {
+    Chargement,
+    'my-footer':Footer
   }
 }
 </script>
@@ -222,27 +204,18 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-/*EFFETS*/
 
-.mail p:after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 0%;
-  left: 0px;
-  height: 4px;
-  transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
-  background: #DBBCA8;
+.mesprojets img {
+  max-width: 100%;
 }
 
-.mail p:hover:after {
-  width: 100%;
-}
 
-.competences div:hover{
+
+.competences div:hover {
   transform: scale(0.9);
 }
-.logiciels{
+
+.logiciels {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 10px;
@@ -250,15 +223,17 @@ export default {
   grid-row-gap: 1em;
 }
 
-.logiciels img{
+.logiciels img {
   width: 30%;
 }
+
 /**COMPETENCES*/
 
-.imgcompetence{
+.imgcompetence {
   display: flex;
   justify-content: center;
 }
+
 .imgcompetence img {
   width: 60px;
   height: 50px;
@@ -290,7 +265,7 @@ h5 {
   text-align: center;
   font-size: 17px;
   margin-bottom: 15px;
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .competence h4 {
@@ -330,7 +305,7 @@ h5 {
 .textaccueil h1 {
   align-self: center;
   font-family: Lato, sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .hellotext {
@@ -359,28 +334,8 @@ h5 {
 
 
 /*Petite section contact page accueil*/
-.iconecontact img {
-  width: 66%;
-
-}
-
-.mail p {
-  text-align: center;
-  font-size: 1rem;
-  font-weight: 500;
-  color: #DBBCA8;
-  margin-top: 1.5rem;
-  position: relative;
 
 
-}
-
-.contactaccueil {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
 
 /*FIN section contact page accueil*/
 
@@ -462,7 +417,8 @@ strong {
   color: #DBBCA8;
 
 }
-.mesprojets img{
+
+.mesprojets img {
   width: 800px;
   height: 600px;
 }
@@ -520,6 +476,7 @@ strong {
   letter-spacing: 4px;
   text-align: center;
 }
+
 .technologies h4 {
   margin-top: 7%;
 }
@@ -639,11 +596,87 @@ strong {
 
 
   .qualite h4, .technologies h4 {
-   font-size: 20px;
+    font-size: 20px;
   }
+
   .competence h4 {
-     font-size: 1rem;}
+    font-size: 1rem;
+  }
+
+  .carre {
+    position: absolute;
+    z-index: -100;
+    width: 350px;
+    height: 350px;
+    opacity: 0.6;
+  }
+
+  .mesprojets h4 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .mesprojets img {
+    width: 100%;
+    height: 300px;
+
+  }
+
+
+  .projet1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .projet2 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    display: flex;
+  }
+
+  .contenuprojet, .contenuprojet2 {
+    right: 0px;
+    margin-top: 2%;
+    left: 0px;
+  }
+
+  .mesprojets p {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .traitprojet {
+    margin-left: 45%;
+  }
+
+  .btnprojet {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-left: 27%;
+  }
+
+  .imgprojets {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (height: 1024px) {
+
+  .grid {
+    grid-gap: 5rem;
+  }
+
+  .imgprojets img {
+    height: 500px;
+    width: 100%;
+  }
 
 }
+
 
 </style>

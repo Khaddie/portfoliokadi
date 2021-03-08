@@ -1,10 +1,10 @@
 <template>
   <div class="projet1">
-    <chargement/>
+
 
     <div class="fondprojet" data-aos="flip-right">
       <div class="imgprojprincipale">
-        <img src="../pageprojets/../../assets/image.jpg" alt="">
+        <img src="../pageprojets/../../assets/site1/image.jpg" alt="">
       </div>
       <div class="explicationprojet">
         <h1>CAKE BEAUTY : <br/>
@@ -27,14 +27,16 @@
             </p>
           </div>
           <div class="texteprojet text2">
-            <h5>Role</h5>
+            <h5>Rôle</h5>
             <p> dolore magna aliquyam</p>
             <p> dolore magna aliquyam</p>
             <p> dolore magna aliquyam</p>
             <p> dolore magna aliquyam</p>
 
+            <div class="survollien">
             <h5>Lien du site web</h5>
-            <p> dolore magna aliquyam</p>
+            <p><a href="https://cakebeautyy.fr/">https://cakebeautyy.fr/</a> </p>
+            </div>
           </div>
         </div>
       </div>
@@ -49,7 +51,7 @@
           tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
           os et accusam .</p>
 
-        <img data-aos="zoom-in" src="../pageprojets/../../assets/harmoniecoloree.jpg" alt="">
+        <img data-aos="zoom-in" src="../pageprojets/../../assets/site1/harmoniecoloree.jpg" alt="">
         <blockquote>" Une harmonie colorée simple et minimaliste <br/> pour un style épuré et classe ! "</blockquote>
       </div>
 
@@ -95,33 +97,59 @@
       </div>
       <div class="autresprojets">
         <div>
-          <img width="300" src="../pageprojets/../../assets/projet1.jpg" alt="">
+          <img width="300" src="../pageprojets/../../assets/site2/image.jpg" alt="">
           <p>CONCEPTION DE SITE WEB</p>
           <h4>Hicking</h4>
-          <button>Voir</button>
+          <router-link to="/projet2">
+            <button>Voir</button>
+          </router-link>
         </div>
         <div>
           <img width="300" src="../pageprojets/../../assets/logo1.jpg" alt="">
           <p>CONCEPTION DE LOGO</p>
           <h4>Methodiya</h4>
-          <button>Voir</button>
+          <router-link to="/Logofolio">
+            <button>Voir</button>
+          </router-link>
         </div>
       </div>
+      <my-footer></my-footer>
     </div>
   </div>
 </template>
 
 <script>
-import Chargement from "../../Chargement";
 export default {
   name: "projet1",
-  components:{
-    Chargement,
-  }
+
 }
 </script>
 
 <style scoped>
+
+.survollien p:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0%;
+  left: 0px;
+  height: 4px;
+  transition: 0.25s cubic-bezier(0.72, -0.01, 0.19, 0.92);
+  background: black;
+}
+
+.survollien p:hover:after {
+  width: 37%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+.survollien p {
+  position: relative;
+}
+
 img {
   max-width: 100%;
 }
@@ -367,6 +395,14 @@ video {
     margin: 20px 0 20px 0;
   }
 
+
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .autresprojets{
+    flex-wrap: unset;
+  }
+}
+
 
 </style>

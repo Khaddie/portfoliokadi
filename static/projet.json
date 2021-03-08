@@ -1,0 +1,82 @@
+[
+  {
+    "logos": [
+      {
+        "id": "1",
+        "titre": "Methodiya",
+        "image": "http://khadijaboudjemline.fr/images/logos/logomethodiya.jpg",
+        "resume": "Logo réalisé pour un site web parlant de la lecture et ses bienfaits."
+      },
+      {
+        "id": "2",
+        "titre": "Mona",
+        "image": "http://khadijaboudjemline.fr/images/logos/logomona.jpg",
+        "resume": "Logo réalisé pour un site web de vente de cosmétiques fictive."
+      },
+      {
+        "id": "3",
+        "titre": "Shavvana",
+        "image": "http://khadijaboudjemline.fr/images/logos/logoshavvana.jpg",
+        "resume": "Logo réalisé pour un compte instagram de cuisine et de photographie."
+      },
+      {
+        "id": "4",
+        "titre": "BBR",
+        "image": "http://khadijaboudjemline.fr/images/logos/logobbr.jpg",
+        "resume": "Logo réalisé pour une entrepreuneuse qui réalise des soins pour le visage."
+      },
+      {
+        "id": "5",
+        "titre": "StageByStage",
+        "image": "http://khadijaboudjemline.fr/images/logos/logosbs.jpg",
+        "resume": "Logo réalisé dans le cadre d'un projet collectif, pour un site de suivi de stage."
+      },
+      {
+        "id": "6",
+        "titre": "EnjoyChristmas",
+        "image": "http://khadijaboudjemline.fr/images/logos/logochristmas.jpg",
+        "resume": "Logo réalisé pour un compte Instagram sur le thème de Noel."
+      },
+      {
+        "id": "7",
+        "titre": "Makeup Artist",
+        "image": "http://khadijaboudjemline.fr/images/logos/logosb.jpg",
+        "resume": "Logo réalisé pour une Makeup Artist et HairStyle, située à Mulhouse."
+      },
+      {
+        "id": "8",
+        "titre": "Strat's Boat",
+        "image": "http://khadijaboudjemline.fr/images/logos/logostratsboat.jpg",
+        "resume": "Logo réalisé pour une compagnie fluviale fictive située à Strasbourg."
+      }
+    ]
+  },
+  {
+    "sitesweb": [
+      {
+        "id": "1",
+        "titre": "Hiking",
+        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/hiking.jpg",
+        "resume": "Site web réalisé dans un cadre pédagogique afin de maitriser le thème Wordpress le plus utilisé, le thème Avada.",
+        "technique": "CMS Wordpress | Thème Avada",
+        "lien": "https://khadijaboudjemline.fr/projet2"
+      },
+      {
+        "id": "2",
+        "titre": "CakeBeauty",
+        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/cakebeauty.jpg",
+        "resume": "Site vitrine réalisé pour une pâtissière de la région du Doubs, afin que les clients puissent la contacter directement sur son site web et peuvent ainsi faire leur sélection.",
+        "technique": "CMS Wordpress | HTML | CSS",
+        "lien": "https://khadijaboudjemline.fr/projet1"
+      },
+      {
+        "id": "3",
+        "titre": "Alain Resnais",
+        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/alainresnais.jpg",
+        "resume": "Site web visé à faire découvrir les oeuvres d'Alain Resnais, ainsi que de découvrir sa biographie.",
+        "technique": "Vue JS | HTML | CSS | BootstrapVue",
+        "lien": "https://khadijaboudjemline.fr/projet3"
+      }
+    ]
+  }
+]
