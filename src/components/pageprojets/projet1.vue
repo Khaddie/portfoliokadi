@@ -119,9 +119,12 @@
 </template>
 
 <script>
+import Footer from "../../Footer";
 export default {
   name: "projet1",
-
+components:{
+    'my-footer':Footer
+}
 }
 </script>
 

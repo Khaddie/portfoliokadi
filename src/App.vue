@@ -27,9 +27,16 @@
                 <router-link to="/Sitesweb">
                 <li ref="fermli"><a href="#" data-project-no="2">Sites Web</a></li>
                 </router-link>
+                <router-link to="/Créationsgraphiques">
                 <li><a href="#" data-project-no="3">Créations graphiques</a></li>
+                </router-link>
+                <router-link to="/Apropos">
                 <li><a href="#" data-project-no="4">À propos</a></li>
-                <li><a href="mailto:khaddie90@gmail.com" data-project-no="5">Contact</a></li>
+                </router-link>
+
+                <router-link to="/Contact">
+                <li><a href="#" data-project-no="5">Contact</a></li>
+                </router-link>
               </ul>
             </div>
           </div>

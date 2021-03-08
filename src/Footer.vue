@@ -11,7 +11,11 @@
       <p>© Khadija Boudjemline. Tous droits réservés.</p>
 
     </div>
-    <p class="mentions">Mentions légales</p>
+
+    <p class="mentions">
+      Mentions légales</p>
+
+
   </div>
 
 </footer>

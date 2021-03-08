@@ -78,5 +78,61 @@
         "lien": "https://khadijaboudjemline.fr/projet3"
       }
     ]
+  },
+  {
+    "bannieres": [
+      {
+        "id": "1",
+        "titre": "Hiking",
+        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/hiking.jpg",
+        "resume": "Site web réalisé dans un cadre pédagogique afin de maitriser le thème Wordpress le plus utilisé, le thème Avada.",
+        "technique": "CMS Wordpress | Thème Avada",
+        "lien": "https://khadijaboudjemline.fr/projet2"
+      },
+      {
+        "id": "2",
+        "titre": "CakeBeauty",
+        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/cakebeauty.jpg",
+        "resume": "Site vitrine réalisé pour une pâtissière de la région du Doubs, afin que les clients puissent la contacter directement sur son site web et peuvent ainsi faire leur sélection.",
+        "technique": "CMS Wordpress | HTML | CSS",
+        "lien": "https://khadijaboudjemline.fr/projet1"
+      },
+      {
+        "id": "3",
+        "titre": "Alain Resnais",
+        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/alainresnais.jpg",
+        "resume": "Site web visé à faire découvrir les oeuvres d'Alain Resnais, ainsi que de découvrir sa biographie.",
+        "technique": "Vue JS | HTML | CSS | BootstrapVue",
+        "lien": "https://khadijaboudjemline.fr/projet3"
+      }
+    ]
+  },
+  {
+    "maquettes": [
+      {
+        "id": "1",
+        "titre": "Hiking",
+        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/hiking.jpg",
+        "resume": "Site web réalisé dans un cadre pédagogique afin de maitriser le thème Wordpress le plus utilisé, le thème Avada.",
+        "technique": "CMS Wordpress | Thème Avada",
+        "lien": "https://khadijaboudjemline.fr/projet2"
+      },
+      {
+        "id": "2",
+        "titre": "CakeBeauty",
+        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/cakebeauty.jpg",
+        "resume": "Site vitrine réalisé pour une pâtissière de la région du Doubs, afin que les clients puissent la contacter directement sur son site web et peuvent ainsi faire leur sélection.",
+        "technique": "CMS Wordpress | HTML | CSS",
+        "lien": "https://khadijaboudjemline.fr/projet1"
+      },
+      {
+        "id": "3",
+        "titre": "Alain Resnais",
+        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/alainresnais.jpg",
+        "resume": "Site web visé à faire découvrir les oeuvres d'Alain Resnais, ainsi que de découvrir sa biographie.",
+        "technique": "Vue JS | HTML | CSS | BootstrapVue",
+        "lien": "https://khadijaboudjemline.fr/projet3"
+      }
+    ]
   }
 ]

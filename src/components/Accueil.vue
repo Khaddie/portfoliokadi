@@ -89,12 +89,13 @@
             </div>
             <h5>DÉVELOPPEMENT</h5>
             <ul>
-              <li>Intégration HTML/CSS/JS</li>
-              <li>Intégration avec CMS</li>
-              <li>Gestion de flux (ShoppingFeed)</li>
               <li>Intégration avec Framework (Vues, BootstrapVue...)</li>
               <li>Développement d'applications web</li>
+              <li>Gestion de flux (ShoppingFeed)</li>
+              <li>Intégration HTML/CSS/JS</li>
               <li>Php, Javascript, MySQL</li>
+              <li>Intégration avec CMS</li>
+
             </ul>
           </div>
 
@@ -105,12 +106,13 @@
             </div>
             <h5>WEBDESIGN</h5>
             <ul>
-              <li>Maquettes graphiques</li>
+
               <li>Création de chartes graphiques, logos..</li>
-              <li>Utilisation de la suite Adobe</li>
               <li>Création de bannières publicitaires</li>
+              <li>Utilisation de la suite Adobe</li>
               <li>Réalisation de montages vidéos</li>
               <li>Flyers, cartes de visite...</li>
+              <li>Maquettes graphiques</li>
             </ul>
           </div>
 
@@ -122,12 +124,12 @@
             <h5>COMMUNICATION</h5>
             <ul>
               <li>Concevoir une stratégie de communication crédible</li>
-              <li>Animation de réseaux sociaux</li>
-              <li>Rédaction SEO</li>
               <li>Mise en place d'actions de communication</li>
-              <li>Audits de sites web</li>
               <li>Élaboration d'infographies</li>
+              <li>Animation de réseaux sociaux</li>
+              <li>Audits de sites web</li>
 
+              <li>Rédaction SEO</li>
             </ul>
           </div>
         </div>
@@ -177,7 +179,7 @@
         </div>
       </div>
 
-<my-footer></my-footer>
+      <my-footer></my-footer>
 
     </div>
 
@@ -196,7 +198,7 @@ export default {
   },
   components: {
     Chargement,
-    'my-footer':Footer
+    'my-footer': Footer
   }
 }
 </script>
@@ -209,6 +211,10 @@ export default {
   max-width: 100%;
 }
 
+
+.imgaccueil {
+  margin: 5%;
+}
 
 
 .competences div:hover {
@@ -259,6 +265,10 @@ ul li {
   font-weight: 500;
   margin-bottom: 15px;
 
+}
+
+.imgaccueil {
+  margin: 5%;
 }
 
 h5 {
@@ -334,7 +344,6 @@ h5 {
 
 
 /*Petite section contact page accueil*/
-
 
 
 /*FIN section contact page accueil*/
