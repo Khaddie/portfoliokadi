@@ -4,10 +4,10 @@
   <div class="logofolio">
     <div class="explicationpage">
       <h1>L O G O F O L I O</h1>
-      <p>Découvrez ci-dessous les différents logos que j'ai réalisés. Certains logos ont été réalisés dans le cadre de
-        mes études, pour différents projets
-        et d'autres pour des particuliers. Une page qui va etre régulièrement alimentée, car afin de m'améliorer je vais
-        participer à un défi qui consiste à réaliser un logo par mois. </p>
+      <p>Découvrez ci-dessous les différents logos que j'ai réalisé. Certains logos ont été réalisés dans le cadre de
+        mes études pour différents projets
+        et d'autres pour des particuliers. Vous pouvez me faire confiance pour réaliser un logo qui vous ressemble.
+      </p>
     </div>
 
 

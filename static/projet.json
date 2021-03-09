@@ -3,15 +3,15 @@
     "logos": [
       {
         "id": "1",
-        "titre": "Methodiya",
-        "image": "http://khadijaboudjemline.fr/images/logos/logomethodiya.jpg",
-        "resume": "Logo réalisé pour un site web parlant de la lecture et ses bienfaits."
+        "titre": "Strat's Boat",
+        "image": "http://khadijaboudjemline.fr/images/logos/logostratsboat.jpg",
+        "resume": "Logo réalisé pour une compagnie fluviale fictive située à Strasbourg."
       },
       {
         "id": "2",
         "titre": "Mona",
         "image": "http://khadijaboudjemline.fr/images/logos/logomona.jpg",
-        "resume": "Logo réalisé pour un site web de vente de cosmétiques fictive."
+        "resume": "Logo réalisé pour un site web fictif de vente de cosmétiques."
       },
       {
         "id": "3",
@@ -23,7 +23,7 @@
         "id": "4",
         "titre": "BBR",
         "image": "http://khadijaboudjemline.fr/images/logos/logobbr.jpg",
-        "resume": "Logo réalisé pour une entrepreuneuse qui réalise des soins pour le visage."
+        "resume": "Logo réalisé pour une entrepreneuse vendant des soins pour le visage."
       },
       {
         "id": "5",
@@ -45,9 +45,9 @@
       },
       {
         "id": "8",
-        "titre": "Strat's Boat",
-        "image": "http://khadijaboudjemline.fr/images/logos/logostratsboat.jpg",
-        "resume": "Logo réalisé pour une compagnie fluviale fictive située à Strasbourg."
+        "titre": "Methodiya",
+        "image": "http://khadijaboudjemline.fr/images/logos/logomethodiya.jpg",
+        "resume": "Logo réalisé pour un site web parlant de la lecture et ses bienfaits."
       },
       {
         "id": "9",
@@ -55,7 +55,6 @@
         "image": "http://khadijaboudjemline.fr/images/logos/indiglu.jpg",
         "resume": "Logo réalisé pour un site web destiné aux diabètiques."
       }
-
     ]
   },
   {
@@ -80,7 +79,7 @@
         "id": "3",
         "titre": "Alain Resnais",
         "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/alainresnais.jpg",
-        "resume": "Site web visé à faire découvrir les oeuvres d'Alain Resnais, ainsi que de découvrir sa biographie.",
+        "resume": "Site web regroupant certaines oeuvres du réalisateur français Alain Resnais. On y retrouve également sa biographie et quelques anecdotes. ",
         "technique": "Vue JS | HTML | CSS | BootstrapVue",
         "lien": "https://khadijaboudjemline.fr/projet3"
       }
@@ -95,14 +94,6 @@
         "resume": "Découvrez le début d'un projet de maquettage pour le site web d'une Makeup Artist, le logo a également été réalisé. ",
         "technique": "Illustrator | Adobe XD | Photoshop",
         "lien": "https://khadijaboudjemline.fr/projet4"
-      },
-      {
-        "id": "2",
-        "titre": "Methodiya",
-        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/methodiya.jpg",
-        "resume": "Découvrez le début d'un projet de maquettage pour le site web d'une ferue de lecture, qui souhaite en faire son métier. ",
-        "technique": "Illustrator | Adobe XD | Photoshop",
-        "lien": "https://khadijaboudjemline.fr/projet5"
       }
     ]
   },
@@ -118,5 +109,4 @@
       }
     ]
   }
-
 ]

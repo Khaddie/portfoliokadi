@@ -12,7 +12,7 @@
       </div>
 
       <div class="imgaccueil w-100">
-        <img src="../assets/imgaccueil.svg" alt="">
+        <img src="../assets/imgaccueil.svg" alt="Portfolio Khadija Boudjemline">
       </div>
 
     </div>
@@ -20,22 +20,22 @@
     <div class="accueilmarge">
       <div class="presentation">
         <div class="w-100">
-          <img src="../assets/img2accueil.svg" alt="">
+          <img src="../assets/img2accueil.svg" alt="Portfolio A propos de moi">
         </div>
 
         <div class="textpresentation ">
           <h3>Besoin d'une webdesigneuse, développeuse front-end ?<br/>
             Je peux vous aider ! </h3>
-          <p>J'habite dans la région du Doubs (25), j'ai 19ans et je suis actuellement étudiante. Ma formation
-            s'intitule DUT des métiers du web et du multimédia, j'apprends depuis maintenant deux ans la programmation,
-            le graphisme, l'intégration...tout ce qui touche au site web. Je pense continuer dans le domaine du web en
-            me dirigeant vers une Licence Pro Webdesign située à Montbéliard.</p>
+          <p>J'habite dans la région du Doubs (25), j'ai 19ans et je suis actuellement étudiante. Ma formation s'intitule
+            DUT des métiers du web et du multimédia, je suis depuis près de deux ans cette formation qui permet d'acquérir
+            des compétences dans le domaine du web, à savoir : la programmation, le graphisme, l'intégration...
+            tout ce qui touche au monde tentaculeux des sites web. </p>
           <h6>Suivez-moi sur mes réseaux sociaux :</h6>
           <div class="icone">
             <a href="https://www.instagram.com/kaddichou/?hl=fr"><i class="fab fa-instagram"></i></a>
-            <i class="fab fa-dribbble"><a href="#"></a></i>
-            <i class="fab fa-pinterest"><a href="#"></a></i>
-            <i class="fab fa-behance"><a href="#"></a></i>
+            <i class="fab fa-dribbble"></i>
+            <i class="fab fa-pinterest"></i>
+            <i class="fab fa-behance"></i>
           </div>
         </div>
 
@@ -47,28 +47,28 @@
         <div class="grid">
           <div data-aos="fade-right">
             <div class="imgqualite">
-              <img class="w-50" src="../assets/imgcreative.svg" alt="">
+              <img class="w-50" src="../assets/imgcreative.svg" alt="Créativité">
             </div>
             <p class="titrequalite">Créative</p>
             <p class="qualitephrase">De la maquette graphique à l'intégration Web.</p>
           </div>
           <div data-aos="fade-right">
             <div class="imgqualite">
-              <img class="w-50" src="../assets/imgrelationnelle.svg" alt="">
+              <img class="w-50" src="../assets/imgrelationnelle.svg" alt="Relationnelle designer">
             </div>
             <p class="titrequalite">Relationnelle</p>
             <p class="qualitephrase">A la fois autonome et coopérative, je peux jouer seule et en équipe</p>
           </div>
           <div data-aos="fade-left">
             <div class="imgqualite">
-              <img class="w-50" src="../assets/imgpolyvalente.svg" alt="">
+              <img class="w-50" src="../assets/imgpolyvalente.svg" alt="Polyvalente designer">
             </div>
             <p class="titrequalite">Polyvalente</p>
-            <p class="qualitephrase">Compétente dans tous les domaines, chaque projet est pour moi un challenge ! </p>
+            <p class="qualitephrase">Compétente dans plusieurs domaines, chaque projet est pour moi un challenge ! </p>
           </div>
           <div data-aos="fade-left">
             <div class="imgqualite">
-              <img class="w-50" src="../assets/imgdynamique.svg" alt="">
+              <img class="w-50" src="../assets/imgdynamique.svg" alt="Dynamique Designer">
             </div>
             <p class="titrequalite">Dynamique</p>
             <p class="qualitephrase">Débordante d'énergie, je m'investis pleinement pour la réussite de mes projets.</p>
@@ -82,7 +82,7 @@
         <div class="competences">
           <div data-aos="flip-left">
             <div class="imgcompetence">
-              <img src="../assets/iconedev.svg" alt="">
+              <img src="../assets/iconedev.svg" alt="Développement web">
             </div>
             <h5>DÉVELOPPEMENT</h5>
             <ul>
@@ -99,7 +99,7 @@
 
           <div data-aos="flip-left">
             <div class="imgcompetence">
-              <img src="../assets/iconeweb.svg" alt="">
+              <img src="../assets/iconeweb.svg" alt="Webdesign">
             </div>
             <h5>WEBDESIGN</h5>
             <ul>
@@ -116,7 +116,7 @@
 
           <div data-aos="flip-left">
             <div class="imgcompetence">
-              <img src="../assets/iconecom.svg" alt="">
+              <img src="../assets/iconecom.svg" alt="Communication">
             </div>
             <h5>COMMUNICATION</h5>
             <ul>
@@ -152,7 +152,7 @@
 
             </div>
             <div class="imgprojets">
-              <img src="../assets/imagesb.jpg" alt="">
+              <img src="../assets/preslogoaccueil.jpg" alt="Conceptoon de logos">
             </div>
           </div>
 
@@ -173,7 +173,7 @@
 
             </div>
             <div class="imgprojets">
-              <img src="../assets/imagesb.jpg" alt="">
+              <img src="../assets/imagesb.jpg" alt="Conception de sites web">
             </div>
           </div>
 

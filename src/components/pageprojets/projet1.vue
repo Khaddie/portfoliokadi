@@ -4,7 +4,7 @@
 
     <div class="fondprojet" data-aos="flip-right">
       <div class="imgprojprincipale">
-        <img src="../pageprojets/../../assets/site1/image.jpg" alt="">
+        <img src="../pageprojets/../../assets/site1/image.jpg" alt="Conception de site web de patisseries">
       </div>
       <div class="explicationprojet">
         <h1>CAKE BEAUTY : <br/>
@@ -13,16 +13,16 @@
 
         <div class="grid" data-aos="fade-up">
           <div class="texteprojet">
-            <p><b>Cake Beauty</b> est une patissière spécialisée de base dans le Cake Design, les patisseries
-              américaines.
-              Plus son entreprise prenait de l'ampleur et plus son envie de créer un site web lui venait à l'esprit.
-              Elle fit appel à moi pour réaliser son site vitrine, présentant toutes les patisseries qu'elle propose à
+            <p><b>Cake Beauty</b> est une pâtissière spécialisée dans le Cake Design et les pâtisseries
+              américaines. Depuis lors, ses devis se faisaient via ses réseaux sociaux, cela devint vite ingérable.
+              La création d'un site web lui est venu à l'esprit.
+              Elle fit appel à moi pour réaliser son site vitrine, présentant toutes les pâtisseries qu'elle propose à
               la vente. </p>
             <p>
               <b>Défi : </b>
-              Le défi était de réaliser un site web clair, <b>simple et accessible</b> facilement aux utilisateurs. Le
+              Le défi était de réaliser un site web clair, <b>simple et accessible</b> pour faciliter au maximum le parcours utilisateur. Le
               potentiel client devait pouvoir
-              visualiser toutes les patisseries disponibles et commander via un formulaire de devis simple et
+              visualiser toutes les pâtisseries disponibles et commander via un formulaire simple et
               compréhensible.
             </p>
           </div>
@@ -49,7 +49,7 @@
           de ce site est très coloré, afin que le tout
           soit harmonieux il a fallu utiliser des couleurs sobres. </p>
 
-        <img data-aos="zoom-in" src="../pageprojets/../../assets/site1/harmoniecoloree.jpg" alt="">
+        <img data-aos="zoom-in" src="../pageprojets/../../assets/site1/harmoniecoloree.jpg" alt="Harmonie coloréeWebdesign">
         <blockquote>" Une harmonie colorée simple et minimaliste <br/> pour un style épuré et classe ! "</blockquote>
       </div>
 
@@ -82,7 +82,7 @@
         <h4>Technologies utilisées</h4>
         <p>
           Ce site Web a été créé à partir du CMS Wordpress, le thème a été entièrement personnalisé. Le CSS
-          personnalisable a beaucoup été utilisé et pour la strucure et mise en page
+          personnalisable a beaucoup été utilisé et pour la structure et mise en page
           des différentes pages le plugin <b>Elementor</b> a été un grand allié.</p>
       </div>
 
@@ -92,7 +92,7 @@
       </div>
       <div class="autresprojets">
         <div>
-          <img width="300" src="../pageprojets/../../assets/site2/image.jpg" alt="">
+          <img width="300" src="../pageprojets/../../assets/site2/image.jpg" alt="Conception de site web">
           <p>CONCEPTION DE SITE WEB</p>
           <h4>Hiking</h4>
           <router-link to="/projet2">
@@ -100,7 +100,7 @@
           </router-link>
         </div>
         <div>
-          <img width="300" src="../pageprojets/../../assets/logo1.jpg" alt="">
+          <img width="300" src="../pageprojets/../../assets/logo1.jpg" alt="Conception de site web">
           <p>CONCEPTION DE LOGO</p>
           <h4>Methodiya</h4>
           <router-link to="/Logofolio">

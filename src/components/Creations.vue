@@ -4,64 +4,60 @@
   <div class="logofolio">
     <div data-aos="flip-right" class="explicationpage">
       <h1>CRÉATIONS GRAPHIQUES </h1>
-      <p>Découvrez ci-dessous les différents logos que j'ai réalisés. Certains logos ont été réalisés dans le cadre de
-        mes études, pour différents projets
-        et d'autres pour des particuliers. Une page qui va etre régulièrement alimentée, car afin de m'améliorer je vais
-        participer à un défi qui consiste à réaliser un logo par mois. </p>
+      <p>Découvrez ci-dessous différentes créations graphiques réalisées par mes soins. Dans cette catégorie vous
+        retrouverez : de la modélisation 3D, des maquettes graphiques, des identités visuelles, et enfin des affiches / bannières.</p>
     </div>
 
     <div>
-   <div data-aos="flip-up" class="accueilD">
-     <div class="explicationsection">
-     <h2>Créations 3D</h2>
-     <p>Retrouvez les projets réalisés en 3D. De simples créations </br>ou encore des créations construites à l'aide
-     de WebGL également. </p>
-     </div>
-   </div>
-    <div class="mpesites" v-for="projet in donnees">
-      <div  data-aos="zoom-in-up" class="sites" v-for="proj in projet.projetsmax">
-        <div>
-          <img width="600" :src="proj.image" alt="">
-        </div>
-        <div class="contenu">
-          <h3>{{ proj.titre }}</h3>
-          <p class="tech">{{ proj.technique }}</p>
-          <p>{{ proj.resume }}</p>
-          <button><a :href="proj.lien">Voir plus</a></button>
-
+      <div data-aos="flip-up" class="accueilD">
+        <div class="explicationsection">
+          <h2>Créations 3D</h2>
+          <p>Retrouvez les projets réalisés en 3D. De simples créations <br>ou encore des créations animées avec Three.JS. </p>
         </div>
       </div>
+      <div class="mpesites" v-for="projet in donnees">
+        <div data-aos="zoom-in-up" class="sites" v-for="proj in projet.projetsmax">
+          <div>
+            <img width="600" :src="proj.image" alt="Créations graphiques">
+          </div>
+          <div class="contenu">
+            <h3>{{ proj.titre }}</h3>
+            <p class="tech">{{ proj.technique }}</p>
+            <p>{{ proj.resume }}</p>
+            <button><a :href="proj.lien">Voir plus</a></button>
 
-    </div>
-    </div>
+          </div>
+        </div>
 
-<div>
-    <div  data-aos="flip-up" class="accueilD">
-      <div class="explicationsection">
-        <h2>Identités visuelles</h2>
-        <p>Retrouvez les maquettes réalisées pour des sites web, je suis développeuse front-end mais également webdesigneuse
-          je concois également des interfaces graphiques. Ci-dessous vous retrouverez
-          des maquettes graphiques, pretes à etre intégrer sur un site web ou en cours de réalisation.   </p>
       </div>
     </div>
 
-    <div class="mpesites" v-for="creation in donnees">
-      <div data-aos="zoom-in-up" class="sites" v-for="crea in creation.maquettes">
-        <div>
-          <img width="600" :src="crea.image" alt="">
-        </div>
-        <div class="contenu">
-          <h3>{{ crea.titre }}</h3>
-          <p class="tech">{{ crea.technique }}</p>
-          <p>{{ crea.resume }}</p>
-          <button><a :href="crea.lien">Voir plus</a></button>
-
+    <div>
+      <div data-aos="flip-up" class="accueilD">
+        <div class="explicationsection">
+          <h2>Identités visuelles</h2>
+          <p>Retrouvez les maquettes réalisées pour des sites web, je suis développeuse front-end mais également
+            webdesigneuse je conçois des interfaces graphiques. Vous trouverez ci dessous
+            des maquettes graphiques, prêtes à être intégrées sur un site web ou en cours de réalisation. </p>
         </div>
       </div>
 
-    </div>
-</div>
+      <div class="mpesites" v-for="creation in donnees">
+        <div data-aos="zoom-in-up" class="sites" v-for="crea in creation.maquettes">
+          <div>
+            <img width="600" :src="crea.image" alt="">
+          </div>
+          <div class="contenu">
+            <h3>{{ crea.titre }}</h3>
+            <p class="tech">{{ crea.technique }}</p>
+            <p>{{ crea.resume }}</p>
+            <button><a :href="crea.lien">Voir plus</a></button>
 
+          </div>
+        </div>
+
+      </div>
+    </div>
 
 
     <my-footer></my-footer>
@@ -76,7 +72,7 @@ import Footer from "../Footer";
 export default {
   name: "Créations",
   components: {
-    'my-footer':Footer
+    'my-footer': Footer
   },
   data() {
     return {
@@ -150,7 +146,7 @@ a {
 }
 
 /******/
-.accueilD{
+.accueilD {
 
   display: flex;
   justify-content: center;
@@ -161,9 +157,10 @@ a {
 }
 
 
-.explicationpage{
+.explicationpage {
   margin-bottom: 5%;
 }
+
 h2 {
   text-align: center;
   font-family: Lato, sans-serif;
@@ -171,6 +168,7 @@ h2 {
   font-size: 35px;
 
 }
+
 h1 {
   font-size: 60px;
   font-family: Lato, sans-serif;
@@ -185,6 +183,7 @@ h1 {
   font-size: 1rem;
   font-family: Montserrat, sans-serif;
 }
+
 .logofolio {
   margin: 10%;
 }
@@ -192,13 +191,15 @@ h1 {
 
 @media (max-width: 768px) {
 
-  h1{
+  h1 {
     font-size: 25px;
     font-weight: 600;
   }
-  .explicationpage{
+
+  .explicationpage {
     margin-top: 30%;
   }
+
   .sites {
     display: flex;
     justify-content: center;

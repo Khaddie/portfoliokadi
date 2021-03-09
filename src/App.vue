@@ -4,7 +4,7 @@
       <div class="logo">
         <router-link to="/">
 
-          <img src="./assets/logo.svg" alt="">
+          <img src="./assets/logo.svg" alt="Logo Khadija Boudjemline">
         </router-link>
       </div>
       <div>
@@ -16,7 +16,7 @@
           <div class="menu" style="display: none" ref="menu" v-on:click="menuclick">
             <div class="image">
               <div data-project-no="1" class="item item--1 w-100" style=" opacity: 1; z-index: 89;">
-                <img class="imgmenu w-100" src="./assets/imagemenu.svg" alt="">
+                <img class="imgmenu w-100" src="./assets/imagemenu.svg" alt="Portfolio Khadija Boudjemline">
               </div>
             </div>
             <div class="list">

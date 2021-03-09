@@ -3,7 +3,7 @@
 
     <div class="fondprojet" data-aos="flip-right">
       <div class="imgprojprincipale">
-        <img src="../pageprojets/../../assets/site3/alainresnais.jpg" alt="">
+        <img src="../pageprojets/../../assets/site3/alainresnais.jpg" alt="Conception de site web">
       </div>
       <div class="explicationprojet">
         <h1>ALAIN RESNAIS : <br/>
@@ -12,12 +12,11 @@
 
         <div class="grid" data-aos="fade-up">
           <div class="texteprojet">
-            <p>Ce site web est un site regroupant les informations concernant le réalisateur français <b>Alain Resnais</b>
-            ainsi que sa filmographie, ses meilleurs films. </p>
+            <p>Site web regroupant certaines oeuvres du réalisateur français <b>Alain Resnais.</b>  On y retrouve également sa biographie et quelques anecdotes. </p>
             <p>
               <b>Défi : </b>
               Ce site web a été réalisé dans le cadre pédagogique de mon DUT MMI. Le défi était de réaliser le maquettage complet du site web,
-              son identité visuelle, et enfin son intégration via le framework VuJS. Ce site a été réalisé entièrement en 8h.
+              son identité visuelle, et enfin son intégration via le framework VuJS. La totalité de ces étapes a été réalisée en 8h exactement.
             </p>
           </div>
           <div class="texteprojet text2">
@@ -48,7 +47,7 @@
           avec les différentes affiches de films. Les typographies utilisées s'harmonisent avec les couleurs, la
           typographie script casse la rigidité du site.</p>
 
-        <img data-aos="zoom-in" src="../pageprojets/../../assets/site3/harmoniecoloree.jpg" alt="">
+        <img data-aos="zoom-in" src="../pageprojets/../../assets/site3/harmoniecoloree.jpg" alt="Harmonie colorée">
         <blockquote>" Un site web qui retrace la vie d'un réalisateur francais. "</blockquote>
       </div>
 
@@ -65,11 +64,11 @@
       </div>
 
       <div class="presentationinterface">
-        <div>
-          <img src="../pageprojets/../../assets/site3/accueilbureau.jpg" alt="">
+        <div data-aos="fade-right">
+          <img src="../pageprojets/../../assets/site3/accueilbureau.jpg" alt="Maquettes Sites web">
         </div>
-        <div>
-          <img src="../pageprojets/../../assets/site3/accueilmobile.jpg" alt="">
+        <div data-aos="fade-right">
+          <img src="../pageprojets/../../assets/site3/accueilmobile.jpg" alt="Maquettes sites web">
         </div>
 
 
@@ -90,7 +89,7 @@
       </div>
       <div class="autresprojets">
         <div>
-          <img width="300" src="../pageprojets/../../assets/projet1.jpg" alt="">
+          <img width="300" src="../pageprojets/../../assets/projet1.jpg" alt="Conception de site web">
           <p>CONCEPTION DE SITE WEB</p>
           <h4>Hicking</h4>
           <router-link to="/projet1">
@@ -98,7 +97,7 @@
           </router-link>
         </div>
         <div>
-          <img width="300" src="../pageprojets/../../assets/logo1.jpg" alt="">
+          <img width="300" src="../pageprojets/../../assets/logo1.jpg" alt="Conception de logo">
           <p>CONCEPTION DE LOGO</p>
           <h4>Methodiya</h4>
           <router-link to="/Logofolio">

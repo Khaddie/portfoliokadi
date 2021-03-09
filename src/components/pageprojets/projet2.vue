@@ -4,7 +4,7 @@
 
     <div class="fondprojet" data-aos="flip-right">
       <div class="imgprojprincipale">
-        <img src="../pageprojets/../../assets/site2/image.jpg" alt="">
+        <img src="../pageprojets/../../assets/site2/image.jpg" alt="Conception de site web">
       </div>
       <div class="explicationprojet">
         <h1>HIKING : <br/>
@@ -42,9 +42,9 @@
 
         <p class="mt-3">L'harmonie colorée nous a été fourni, elle est composée d'un bleu tonique utilisé pour les
           boutons d'appel à l'action. Et les autres bleus sont utilisés
-          avec partiomonie sur l'ensemble des pages. </p>
+          avec parcimonie sur l'ensemble des pages. </p>
 
-        <img data-aos="zoom-in" src="../pageprojets/../../assets/site2/harmoniecoloree.jpg" alt="">
+        <img data-aos="zoom-in" src="../pageprojets/../../assets/site2/harmoniecoloree.jpg" alt="Harmonie colorée">
         <blockquote>" Un site web réalisé avec le thème infiniment exploitable, Avada. "</blockquote>
       </div>
 
@@ -57,12 +57,12 @@
           <div class="traitprojet1"></div>
           <p class="mt-3">L'interface est ludique et attractive, on observe plusieurs animations. Et sur la page
             d'accueil une animation réalisée avec le plugin <b>Slider Revolution</b>.
-            On observe également un footer bien travaillé, et une newsletter fonctionnelle. </p>
+            On observe également un footer original, et une newsletter fonctionnelle. </p>
         </div>
       </div>
 
       <div class="presentationinterface">
-        <img src="../pageprojets/../../assets/site2/mobile.jpg" alt="">
+        <img src="../pageprojets/../../assets/site2/mobile.jpg" alt="Webdesign Responsive">
 
       </div>
 
@@ -72,7 +72,7 @@
       </div>
       <div class="autresprojets">
         <div>
-          <img width="300" src="../pageprojets/../../assets/projet1.jpg" alt="">
+          <img width="300" src="../pageprojets/../../assets/projet1.jpg" alt="Conception de site web">
           <p>CONCEPTION DE SITE WEB</p>
           <h4>Hiking</h4>
           <router-link to="/projet1">
@@ -80,7 +80,7 @@
           </router-link>
         </div>
         <div>
-          <img width="300" src="../pageprojets/../../assets/logo1.jpg" alt="">
+          <img width="300" src="../pageprojets/../../assets/logo1.jpg" alt="Conception de logo">
           <p>CONCEPTION DE LOGO</p>
           <h4>Methodiya</h4>
           <router-link to="/Logofolio">

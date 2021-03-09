@@ -11,7 +11,7 @@
     <div class="mpesites" v-for="site in donnees">
       <div data-aos="zoom-out-up" class="sites" v-for="si in site.sitesweb">
         <div>
-          <img width="600" :src="si.image" alt="">
+          <img width="600" :src="si.image" alt="création de sites web">
         </div>
         <div class="contenu">
           <h3>{{ si.titre }}</h3>

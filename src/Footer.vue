@@ -2,7 +2,7 @@
   <div id="footer">
     <div class="contact">
       <div class="iconecontact">
-        <img src="./assets/iconecontact.svg" alt="">
+        <img src="./assets/iconecontact.svg" alt="Contact">
       </div>
       <div class="survollien">
         <p><a href="mailto:khaddie90@gmail.com">khaddie90@gmail.com </a></p>

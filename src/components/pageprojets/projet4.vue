@@ -4,18 +4,18 @@
 
     <div class="fondprojet" data-aos="flip-right">
       <div class="imgprojprincipale">
-        <img src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/imagesb.jpg" alt="">
+        <img src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/imagesb.jpg" alt="Conception de site web">
       </div>
       <div class="explicationprojet">
-        <h1>CAKE BEAUTY : <br/>
-          Site vitrine de pâtisseries </h1>
+        <h1>SARAH BIROUK: <br/>
+          Makeup artist </h1>
         <div class="traitprojet"></div>
 
         <div class="grid" data-aos="fade-up">
           <div class="texteprojet">
             <p><b>Sarah Birouk</b> est une makeup artist exercant son métier dans la région du Haut-Rhin.
-              Entrepreuneuse depuis quelques années, elle a souhaité se professionnaliser en possédant un site web.
-              Son but était également d'avoir une plateforme afin de gérer ses demande de devis, et proposer à ses
+              Entrepreneuse depuis quelques années, elle a souhaité se professionnaliser en possédant un site web.
+              Son but était également d'avoir une plateforme afin de gérer ses demandes de devis, et proposer à ses
               clientes de nouvelles prestations, ventes flashs...
             </p>
             <p>
@@ -32,7 +32,7 @@
 
             <div class="survollien">
               <h5>Lien du site web</h5>
-              <p>Le site est encore à la phase maquettage, le lien du site appraitra une fois le site en ligne.
+              <p>Le site est encore à la phase maquettage, le lien du site apparaîtra une fois le site en ligne.
               </p>
             </div>
           </div>
@@ -46,10 +46,10 @@
         <h4>L'HARMONIE COLORÉE</h4>
 
         <p class="mt-3">Nous avons ici une harmonie colorée simple et pas commune dans le monde du maquillage. La
-          plupart des sites web de maleup artist sont basés sur le noir et le blanc. Ici nous abons rajouté une couleur
+          plupart des sites web de makeup artist sont basés sur le noir et le blanc. Ici nous abons rajouté une couleur
           claire, se rapprochant du rose afin de se distinguer de la concurrence. </p>
 
-        <img data-aos="zoom-in" src="../pageprojets/../../assets/site1/harmoniecoloree.jpg" alt="">
+        <img data-aos="zoom-in" src="../pageprojets/../../assets/creations/sb/harmoniecolorée.jpg" alt="Harmonie colorée">
         <blockquote>" Une harmonie colorée simple et minimaliste <br/> pour un style épuré et classe ! "</blockquote>
       </div>
 
@@ -64,19 +64,19 @@
             photographies, réalisées par une <b>photographe professionnelle</b>. Nous avons beaucoup de contenu,
             d'informations, le tout est d'harmoniser le tout afin que le site ne fasse pas surcharger et perde de sa
             classe.</p>
-          <p><em>Retrouvez ici trois propositions de maquettes de la page d'accueil envoyées à la commanditaire, son choix s'est arretée sur la dernière.</em> </p>
+          <p><em>Retrouvez ici trois propositions de maquettes de la page d'accueil envoyées à la commanditaire, son choix s'est arrêtée sur la dernière.</em> </p>
         </div>
       </div>
 
       <div class="presentationinterface">
         <div class="premier">
-          <img src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/maquette1sb.jpg" alt="">
+          <img src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/maquette1sb.jpg" alt="Maquettes AdobeXD">
         </div>
         <div>
-          <img src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/maquette2sb.jpg" alt="">
+          <img src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/maquette2sb.jpg" alt="Maquettes Webdesign">
         </div>
         <div>
-          <img src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/maquette3sb.jpg" alt="">
+          <img src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/maquette3sb.jpg" alt="Maquette web design">
         </div>
       </div>
 
@@ -84,8 +84,8 @@
 
         <h4>Technologies utilisées</h4>
         <p>
-          Ce site web n'a pas encore vu le jour, mais d'après le cahier des charges il va etre mis en place sur le thème
-          Wordpress Avada. Les maquettes ont été réalisées avec Adobe XD, et le logo avec Adobe Illustrator.
+          Ce site web n'a pas encore vu le jour, mais d'après le cahier des charges il sera contrcuit avec le thème
+          Wordpress Avada. Les maquettes ont été réalisé avec Adobe XD, et le logo avec Adobe Illustrator.
           Retrouvez le logo réalisé pour cette makeup artist dans le <router-link to="/Logofolio">Logofolio.</router-link>
         </p>
       </div>
@@ -96,7 +96,7 @@
       </div>
       <div class="autresprojets">
         <div>
-          <img width="300" src="../pageprojets/../../assets/site2/image.jpg" alt="">
+          <img width="300" src="../pageprojets/../../assets/site2/image.jpg" alt="Conception de site web">
           <p>CONCEPTION DE SITE WEB</p>
           <h4>Hiking</h4>
           <router-link to="/projet2">
@@ -104,7 +104,7 @@
           </router-link>
         </div>
         <div>
-          <img width="300" src="../pageprojets/../../assets/logo1.jpg" alt="">
+          <img width="300" src="../pageprojets/../../assets/logo1.jpg" alt="Conception de logo">
           <p>CONCEPTION DE LOGO</p>
           <h4>Methodiya</h4>
           <router-link to="/Logofolio">

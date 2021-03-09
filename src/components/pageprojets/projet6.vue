@@ -4,7 +4,7 @@
 
     <div class="fondprojet" data-aos="flip-right">
       <div class="imgprojprincipale">
-        <img src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/scenebureau.jpg" alt="">
+        <img src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/scenebureau.jpg" alt="Modélisation 3D">
       </div>
       <div class="explicationprojet">
         <h1>Bureau en 3D: <br/>
@@ -14,7 +14,7 @@
         <div class="grid" data-aos="fade-up">
           <div class="texteprojet">
             <p><b>Dans le cadre de mon DUT MMI</b> lors du troisième semestre, avec ma coéquipière Coline Jacobé nous
-              devions créer un bureau de reve en 3D, puis réaliser queqlues animations avec ThreeJS.
+              devions créer un bureau de reve en 3D, puis réaliser quelques animations avec ThreeJS.
 
             </p>
             <p>
@@ -43,15 +43,15 @@
 
         <h4>LA CONCEPTION</h4>
 
-        <p class="mt-3">Tout d'abord il a fallu créer sur <b>l'interface 3DSMAX</b>qui est un logiciel de conception 3D,
+        <p class="mt-3">Tout d'abord il a fallu créer sur <b>l'interface 3DSMAX</b> qui est un logiciel de conception 3D,
           qui
           ressemble beaucoup à Blender. Il a fallu modéliser les objets ce qui a pris un certain temps, puis enfin les
-          lier si nécessaire et <b>les préparer à l'animation</b> si ils devaient etre animer par la suite. Puis le
+          lier si nécessaire et <b>les préparer à l'animation</b> s'ils devaient être animer par la suite. Puis le
           fichier
-          3dsmax a été exporté et converti en fichier .dae afin de pourvoir le lier au fichier html. </p>
+          3dsmax a été exporté et converti en fichier <em>.dae </em>afin de pourvoir le lier au fichier html. </p>
 
         <img data-aos="zoom-in"
-             src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/CONCEPTION3D.jpg" alt="">
+             src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/CONCEPTION3D.jpg" alt="Site WebGL">
         <blockquote>" Un bureau simple et professionnel créé en 3D."</blockquote>
       </div>
 
@@ -73,11 +73,11 @@
           </ul>
           <div class="elementsbureau">
             <div>
-              <img src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/23D.jpg" alt="">
+              <img src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/23D.jpg" alt="Conception de site en 3D">
             </div>
 
             <div>
-              <img src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/13D.jpg" alt="">
+              <img src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/13D.jpg" alt="Conception de site en 3D">
             </div>
           </div>
 
@@ -92,7 +92,7 @@
 
           <h4>Les animations</h4>
           <div class="traitprojet1"></div>
-          <p class="mt-3">Les animations ont été réalisées à l'aide de la bibliothèque Javascript <b>ThreeJS</b>. Cette
+          <p class="mt-3">Les animations ont été réalisé à l'aide de la bibliothèque Javascript <b>ThreeJS</b>. Cette
             bibliothèque permet de créer des scènes 3D dans un navigateur. </p>
 
 
@@ -107,7 +107,7 @@
         </div>
         <div>
           <h5>Le coffre fort</h5>
-          <p>Le coffre-fort est caché derrière un cadre, on doit cliquer sur le cadre afin d'apercevoir le coffre fort
+          <p>Le coffre-fort est caché derrière un cadre, on doit cliquer sur le cadre afin d'apercevoir le coffre-fort
             qui s'ouvre en cliquant sur la poignée. Derrière ce coffre se trouve les lingots d'or. </p>
         </div>
         <div>
@@ -122,7 +122,7 @@
       <div class="presentationinterface">
         <div class="premier">
           <img src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/13D.jpg"
-               alt="">
+               alt="Conception de site en 3D">
         </div>
 
       </div>
@@ -130,7 +130,7 @@
 
       <div class="autresprojets">
         <div>
-          <img width="300" src="../pageprojets/../../assets/site2/image.jpg" alt="">
+          <img width="300" src="../pageprojets/../../assets/site2/image.jpg" alt="Conception de site web">
           <p>CONCEPTION DE SITE WEB</p>
           <h4>Hiking</h4>
           <router-link to="/projet2">
@@ -138,7 +138,7 @@
           </router-link>
         </div>
         <div>
-          <img width="300" src="../pageprojets/../../assets/logo1.jpg" alt="">
+          <img width="300" src="../pageprojets/../../assets/logo1.jpg" alt="Conception de site web">
           <p>CONCEPTION DE LOGO</p>
           <h4>Methodiya</h4>
           <router-link to="/Logofolio">
