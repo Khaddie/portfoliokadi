@@ -13,29 +13,27 @@
 
         <div class="grid" data-aos="fade-up">
           <div class="texteprojet">
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmo
-              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
-              os et accusam et justo duo dolores et ea rebum. Stet
-              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-              Lorem ipsum dolor sit amet,
-              consetetur sadipscing</p>
+            <p><b>Cake Beauty</b> est une patissière spécialisée de base dans le Cake Design, les patisseries
+              américaines.
+              Plus son entreprise prenait de l'ampleur et plus son envie de créer un site web lui venait à l'esprit.
+              Elle fit appel à moi pour réaliser son site vitrine, présentant toutes les patisseries qu'elle propose à
+              la vente. </p>
             <p>
               <b>Défi : </b>
-              Alors que nous avions une multitude d'idées à inclure dans notre plate-forme holistique, notre principal
-              défi était de définir et d'exécuter notre MVP initial dans un laps de temps extrêmement court avec des
-              ressources très limitées.
+              Le défi était de réaliser un site web clair, <b>simple et accessible</b> facilement aux utilisateurs. Le
+              potentiel client devait pouvoir
+              visualiser toutes les patisseries disponibles et commander via un formulaire de devis simple et
+              compréhensible.
             </p>
           </div>
           <div class="texteprojet text2">
             <h5>Rôle</h5>
-            <p> dolore magna aliquyam</p>
-            <p> dolore magna aliquyam</p>
-            <p> dolore magna aliquyam</p>
-            <p> dolore magna aliquyam</p>
+            <p> Intégratrice via un CMS</p>
+
 
             <div class="survollien">
-            <h5>Lien du site web</h5>
-            <p><a href="https://cakebeautyy.fr/">https://cakebeautyy.fr/</a> </p>
+              <h5>Lien du site web</h5>
+              <p><a href="https://cakebeautyy.fr/">https://cakebeautyy.fr/</a></p>
             </div>
           </div>
         </div>
@@ -47,9 +45,9 @@
 
         <h4>L'HARMONIE COLORÉE</h4>
 
-        <p class="mt-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmo
-          tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
-          os et accusam .</p>
+        <p class="mt-3">Nous avons ici une harmonie colorée simple et nécessaire pour ce site web. En effet, le contenu
+          de ce site est très coloré, afin que le tout
+          soit harmonieux il a fallu utiliser des couleurs sobres. </p>
 
         <img data-aos="zoom-in" src="../pageprojets/../../assets/site1/harmoniecoloree.jpg" alt="">
         <blockquote>" Une harmonie colorée simple et minimaliste <br/> pour un style épuré et classe ! "</blockquote>
@@ -62,9 +60,10 @@
 
           <h4>Interface du site</h4>
           <div class="traitprojet1"></div>
-          <p class="mt-3" >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmo
-            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
-            os et accusam .</p>
+          <p class="mt-3">Notre approche était d'allier élégance et simplicité. Comme nous avions affaire à un site web
+            riche en contenu,
+            l'objectif principal était d'allier des images colorées et de qualité avec une ambiance simple et
+            agréable.</p>
         </div>
       </div>
 
@@ -80,15 +79,11 @@
 
       <div class="defbesoins" data-aos="fade-up">
 
-        <h4>Découverte et narration</h4>
+        <h4>Technologies utilisées</h4>
         <p>
-          Dans notre version 1.0, nous voulions donner à l'utilisateur un aperçu rapide de tous les looks et avons opté
-          pour une mise en page de style pinterest. Pour la version 2.0, nous avons décidé de nous éloigner de cette
-          mise en page sur la base de nouvelles informations sur la façon dont les utilisateurs consommaient notre
-          contenu.
-
-          Nous avons remplacé la vue en grille par une approche d'interface éditoriale , où la narration et
-          l'inspiration joueraient un rôle plus important à travers le mélange d'articles et de tutoriels.</p>
+          Ce site Web a été créé à partir du CMS Wordpress, le thème a été entièrement personnalisé. Le CSS
+          personnalisable a beaucoup été utilisé et pour la strucure et mise en page
+          des différentes pages le plugin <b>Elementor</b> a été un grand allié.</p>
       </div>
 
 
@@ -99,7 +94,7 @@
         <div>
           <img width="300" src="../pageprojets/../../assets/site2/image.jpg" alt="">
           <p>CONCEPTION DE SITE WEB</p>
-          <h4>Hicking</h4>
+          <h4>Hiking</h4>
           <router-link to="/projet2">
             <button>Voir</button>
           </router-link>
@@ -120,11 +115,12 @@
 
 <script>
 import Footer from "../../Footer";
+
 export default {
   name: "projet1",
-components:{
-    'my-footer':Footer
-}
+  components: {
+    'my-footer': Footer
+  }
 }
 </script>
 
@@ -145,10 +141,11 @@ components:{
   width: 37%;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
+
 .survollien p {
   position: relative;
 }
@@ -193,7 +190,8 @@ button {
   background-color: white;
   border-radius: 10px;
 }
-.autresprojets img{
+
+.autresprojets img {
   height: 210px;
   width: 300px;
 }
@@ -382,11 +380,12 @@ video {
   }
 
   .autresprojets div {
-    margin: 15px  0px;
+    margin: 15px 0px;
     width: 70%;
   }
-  .autresprojets img{
-    height:160px;
+
+  .autresprojets img {
+    height: 160px;
   }
 
   .explicationinterface h4 {
@@ -402,7 +401,7 @@ video {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  .autresprojets{
+  .autresprojets {
     flex-wrap: unset;
   }
 }

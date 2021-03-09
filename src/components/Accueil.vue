@@ -8,7 +8,7 @@
           <div class="hellotext">Hello,</div>
           je suis Khadija Boudjemline
         </h1>
-        <p>Développeuse Front-End | Webdesigner </p>
+        <p>Développeuse Front-End | Webdesigneuse </p>
       </div>
 
       <div class="imgaccueil w-100">
@@ -24,14 +24,19 @@
         </div>
 
         <div class="textpresentation ">
-          <h3>Besoin d'une webdesigner, développeuse front-end ?<br/>
+          <h3>Besoin d'une webdesigneuse, développeuse front-end ?<br/>
             Je peux vous aider ! </h3>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et
-            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-            clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-            consetetur sadipscing</p>
-          <strong>Vous pouvez me suivre sur mes réseaux :</strong>
+          <p>J'habite dans la région du Doubs (25), j'ai 19ans et je suis actuellement étudiante. Ma formation
+            s'intitule DUT des métiers du web et du multimédia, j'apprends depuis maintenant deux ans la programmation,
+            le graphisme, l'intégration...tout ce qui touche au site web. Je pense continuer dans le domaine du web en
+            me dirigeant vers une Licence Pro Webdesign située à Montbéliard.</p>
+          <h6>Suivez-moi sur mes réseaux sociaux :</h6>
+          <div class="icone">
+            <a href="https://www.instagram.com/kaddichou/?hl=fr"><i class="fab fa-instagram"></i></a>
+            <i class="fab fa-dribbble"><a href="#"></a></i>
+            <i class="fab fa-pinterest"><a href="#"></a></i>
+            <i class="fab fa-behance"><a href="#"></a></i>
+          </div>
         </div>
 
       </div>
@@ -45,36 +50,28 @@
               <img class="w-50" src="../assets/imgcreative.svg" alt="">
             </div>
             <p class="titrequalite">Créative</p>
-            <p class="qualitephrase">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-              tempor., dignissimos architecto.
-              Eius, maiores ad?</p>
+            <p class="qualitephrase">De la maquette graphique à l'intégration Web.</p>
           </div>
           <div>
             <div class="imgqualite">
               <img class="w-50" src="../assets/imgrelationnelle.svg" alt="">
             </div>
             <p class="titrequalite">Relationnelle</p>
-            <p class="qualitephrase">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-              tempor., dignissimos architecto.
-              Eius, maiores ad?</p>
+            <p class="qualitephrase">A la fois autonome et coopérative, je peux jouer seule et en équipe</p>
           </div>
           <div>
             <div class="imgqualite">
               <img class="w-50" src="../assets/imgpolyvalente.svg" alt="">
             </div>
             <p class="titrequalite">Polyvalente</p>
-            <p class="qualitephrase">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-              tempor., dignissimos architecto.
-              Eius, maiores ad?</p>
+            <p class="qualitephrase">Compétente dans tous les domaines, chaque projet est pour moi un challenge ! </p>
           </div>
           <div>
             <div class="imgqualite">
               <img class="w-50" src="../assets/imgdynamique.svg" alt="">
             </div>
-            <p class="titrequalite">Relationnelle</p>
-            <p class="qualitephrase">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-              tempor., dignissimos architecto.
-              Eius, maiores ad?</p>
+            <p class="titrequalite">Dynamique</p>
+            <p class="qualitephrase">Débordante d'énergie, je m'investis pleinement pour la réussite de mes projets.</p>
           </div>
         </div>
       </div>
@@ -150,7 +147,8 @@
             <p>Cake Beauty : <br/>
               Site vitrine de pâtisseries </p>
             <div class="traitprojet"></div>
-            <button class="btnprojet">Voir le projet</button>
+            <button class="btnprojet">
+              <router-link to="/projet1">Voir le projet</router-link></button>
           </div>
         </div>
 
@@ -161,21 +159,21 @@
               <p>Methodiya :<br/>
                 La lecture et ses bienfaits</p>
               <div class="traitprojet"></div>
-              <button class="btnprojet">Logofolio</button>
+              <button class="btnprojet"><router-link to="/Logofolio">Logofolio </router-link></button>
 
             </div>
             <div class="carre">
 
             </div>
             <div class="imgprojets">
-              <img src="../assets/logo1.jpg" alt="">
+              <img src="../assets/projet1.jpg" alt="">
             </div>
           </div>
 
         </div>
 
         <div class="btnprojets w-100">
-          <button>Voir tous les projets</button>
+
         </div>
       </div>
 
@@ -206,6 +204,25 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+a{
+  text-decoration: none;
+  color: black;
+}
+i {
+  font-size: 2rem;
+  color: #DBBCA8;
+  margin-left: 2%;
+  margin-top: 10px;
+}
+
+i:first-child {
+  margin-left: 0px;
+}
+
+h6 {
+  color: #DBBCA8;
+  font-family: Lato, sans-serif;
+}
 
 .mesprojets img {
   max-width: 100%;
@@ -221,17 +238,6 @@ export default {
   transform: scale(0.9);
 }
 
-.logiciels {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 10px;
-  justify-content: center;
-  grid-row-gap: 1em;
-}
-
-.logiciels img {
-  width: 30%;
-}
 
 /**COMPETENCES*/
 
@@ -264,9 +270,12 @@ ul li {
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 15px;
-
 }
 
+
+.projet1 img{
+  width: 80%;
+}
 .imgaccueil {
   margin: 5%;
 }
@@ -379,7 +388,7 @@ h5 {
 .contenuprojet2 {
   align-self: center;
   position: relative;
-  left: 15%;
+  left: 0%
 }
 
 .contenuprojet {
@@ -392,7 +401,8 @@ h5 {
   height: 400px;
   width: 300px;
   align-self: center;
-  background-color: #F7F5F0;
+  background-color: white;
+  opacity: 0.5;
 }
 
 .projet1 {
@@ -421,16 +431,6 @@ h5 {
   font-family: Montserrat, sans-serif;
 }
 
-strong {
-  font-size: 1.2rem;
-  color: #DBBCA8;
-
-}
-
-.mesprojets img {
-  width: 800px;
-  height: 600px;
-}
 
 .mesprojets h4 {
   font-family: Lato, sans-serif;
@@ -448,7 +448,7 @@ strong {
 
 .qualitephrase {
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 1rem;
   margin-top: 0.7rem;
 }
 
@@ -516,7 +516,69 @@ strong {
 
 /*FIN PRESENTATION*/
 
+@media (min-width: 768px) and (max-width: 1024px) {
 
+  .carre {
+    position: absolute;
+    z-index: -100;
+    width: 350px;
+    height: 350px;
+    opacity: 0.6;
+  }
+
+  .mesprojets h4 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .mesprojets img {
+    width: 100%;
+    height: 100%;
+
+  }
+
+
+  .projet1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .projet2 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    display: flex;
+  }
+
+  .contenuprojet, .contenuprojet2 {
+    right: 0px;
+    margin-top: 2%;
+    left: 0px;
+  }
+
+  .mesprojets p {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .traitprojet {
+    margin-left: 45%;
+  }
+  .btnprojet {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-left: 27%;
+  }
+
+  .imgprojets {
+    display: flex;
+    justify-content: center;
+  }
+
+}
 @media (max-width: 768px) {
 
   .accueil {
@@ -536,8 +598,12 @@ strong {
     text-align: left;
   }
 
+  h6 {
+    margin-bottom: 0px;
+  }
+
   .accueil1 {
-    background-color: #EDD9CA;
+    background-color: #DBBCA8;
   }
 
   .textaccueil h1 {

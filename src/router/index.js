@@ -9,6 +9,9 @@ import Mentionslegales from "../components/Mentionslegales";
 import projet1 from "../components/pageprojets/projet1";
 import projet2 from "../components/pageprojets/projet2";
 import projet3 from "../components/pageprojets/projet3";
+import projet4 from "../components/pageprojets/projet4";
+import projet5 from "../components/pageprojets/projet5";
+import projet6 from "../components/pageprojets/projet6";
 import Apropos from "../components/Apropos";
 
 Vue.use(Router)
@@ -27,7 +30,9 @@ export default new Router({
     {path: '/projet1', name: 'projet1', component: projet1},
     {path: '/projet2', name: 'projet2', component: projet2},
     {path: '/projet3', name: 'projet3', component: projet3},
-
+    {path: '/projet4', name: 'projet4', component: projet4},
+    {path: '/projet5', name: 'projet5', component: projet5},
+    {path: '/projet6', name: 'projet6', component: projet6},
 
   ]
 })

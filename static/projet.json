@@ -48,7 +48,14 @@
         "titre": "Strat's Boat",
         "image": "http://khadijaboudjemline.fr/images/logos/logostratsboat.jpg",
         "resume": "Logo réalisé pour une compagnie fluviale fictive située à Strasbourg."
+      },
+      {
+        "id": "9",
+        "titre": "Indiglu",
+        "image": "http://khadijaboudjemline.fr/images/logos/indiglu.jpg",
+        "resume": "Logo réalisé pour un site web destiné aux diabètiques."
       }
+
     ]
   },
   {
@@ -80,59 +87,36 @@
     ]
   },
   {
-    "bannieres": [
+    "maquettes": [
       {
         "id": "1",
-        "titre": "Hiking",
-        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/hiking.jpg",
-        "resume": "Site web réalisé dans un cadre pédagogique afin de maitriser le thème Wordpress le plus utilisé, le thème Avada.",
-        "technique": "CMS Wordpress | Thème Avada",
-        "lien": "https://khadijaboudjemline.fr/projet2"
+        "titre": "Sarah Birouk",
+        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/imagesb.jpg",
+        "resume": "Découvrez le début d'un projet de maquettage pour le site web d'une Makeup Artist, le logo a également été réalisé. ",
+        "technique": "Illustrator | Adobe XD | Photoshop",
+        "lien": "https://khadijaboudjemline.fr/projet4"
       },
       {
         "id": "2",
-        "titre": "CakeBeauty",
-        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/cakebeauty.jpg",
-        "resume": "Site vitrine réalisé pour une pâtissière de la région du Doubs, afin que les clients puissent la contacter directement sur son site web et peuvent ainsi faire leur sélection.",
-        "technique": "CMS Wordpress | HTML | CSS",
-        "lien": "https://khadijaboudjemline.fr/projet1"
-      },
-      {
-        "id": "3",
-        "titre": "Alain Resnais",
-        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/alainresnais.jpg",
-        "resume": "Site web visé à faire découvrir les oeuvres d'Alain Resnais, ainsi que de découvrir sa biographie.",
-        "technique": "Vue JS | HTML | CSS | BootstrapVue",
-        "lien": "https://khadijaboudjemline.fr/projet3"
+        "titre": "Methodiya",
+        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/methodiya.jpg",
+        "resume": "Découvrez le début d'un projet de maquettage pour le site web d'une ferue de lecture, qui souhaite en faire son métier. ",
+        "technique": "Illustrator | Adobe XD | Photoshop",
+        "lien": "https://khadijaboudjemline.fr/projet5"
       }
     ]
   },
   {
-    "maquettes": [
+    "projetsmax": [
       {
         "id": "1",
-        "titre": "Hiking",
-        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/hiking.jpg",
-        "resume": "Site web réalisé dans un cadre pédagogique afin de maitriser le thème Wordpress le plus utilisé, le thème Avada.",
-        "technique": "CMS Wordpress | Thème Avada",
-        "lien": "https://khadijaboudjemline.fr/projet2"
-      },
-      {
-        "id": "2",
-        "titre": "CakeBeauty",
-        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/cakebeauty.jpg",
-        "resume": "Site vitrine réalisé pour une pâtissière de la région du Doubs, afin que les clients puissent la contacter directement sur son site web et peuvent ainsi faire leur sélection.",
-        "technique": "CMS Wordpress | HTML | CSS",
-        "lien": "https://khadijaboudjemline.fr/projet1"
-      },
-      {
-        "id": "3",
-        "titre": "Alain Resnais",
-        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/alainresnais.jpg",
-        "resume": "Site web visé à faire découvrir les oeuvres d'Alain Resnais, ainsi que de découvrir sa biographie.",
-        "technique": "Vue JS | HTML | CSS | BootstrapVue",
-        "lien": "https://khadijaboudjemline.fr/projet3"
+        "titre": "Bureau en 3D",
+        "image": "https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/scenebureau.jpg",
+        "resume": "Découvrez un mini projet qui consiste à réaliser un bureau en 3D puis de l'animer et enfin le mettre en ligne.  ",
+        "technique": "3DSMAX | ThreeJS",
+        "lien": "https://khadijaboudjemline.fr/projet6"
       }
     ]
   }
+
 ]

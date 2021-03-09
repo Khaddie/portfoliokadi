@@ -10,7 +10,7 @@
         participer à un défi qui consiste à réaliser un logo par mois. </p>
     </div>
 
-
+    <div>
    <div class="accueilD">
      <div class="explicationsection">
      <h2>Créations 3D</h2>
@@ -18,27 +18,43 @@
      de WebGL également. </p>
      </div>
    </div>
+    <div class="mpesites" v-for="projet in donnees">
+      <div class="sites" v-for="proj in projet.projetsmax">
+        <div>
+          <img width="600" :src="proj.image" alt="">
+        </div>
+        <div class="contenu">
+          <h3>{{ proj.titre }}</h3>
+          <p class="tech">{{ proj.technique }}</p>
+          <p>{{ proj.resume }}</p>
+          <button><a :href="proj.lien">Voir plus</a></button>
+
+        </div>
+      </div>
+
+    </div>
+    </div>
+
 <div>
     <div class="accueilD">
       <div class="explicationsection">
         <h2>Identités visuelles</h2>
-        <p>Retrouvez les maquettes réalisées pour des sites web,
-          je suis développeuse front-end mais également webdesigneuse
+        <p>Retrouvez les maquettes réalisées pour des sites web, je suis développeuse front-end mais également webdesigneuse
           je concois également des interfaces graphiques. Ci-dessous vous retrouverez
           des maquettes graphiques, pretes à etre intégrer sur un site web ou en cours de réalisation.   </p>
       </div>
     </div>
 
-    <div class="mpesites" v-for="site in donnees">
-      <div class="sites" v-for="si in site.sitesweb">
+    <div class="mpesites" v-for="creation in donnees">
+      <div class="sites" v-for="crea in creation.maquettes">
         <div>
-          <img width="600" :src="si.image" alt="">
+          <img width="600" :src="crea.image" alt="">
         </div>
         <div class="contenu">
-          <h3>{{ si.titre }}</h3>
-          <p class="tech">{{ si.technique }}</p>
-          <p>{{ si.resume }}</p>
-          <button><a :href="si.lien">Voir plus</a></button>
+          <h3>{{ crea.titre }}</h3>
+          <p class="tech">{{ crea.technique }}</p>
+          <p>{{ crea.resume }}</p>
+          <button><a :href="crea.lien">Voir plus</a></button>
 
         </div>
       </div>
@@ -183,7 +199,25 @@ h1 {
   .explicationpage{
     margin-top: 30%;
   }
+  .sites {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 
+  .contenu {
+    margin-top: 5%;
+    margin-left: 0;
+
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .sites {
+    margin-top: 10%;
+  }
 }
 
 </style>

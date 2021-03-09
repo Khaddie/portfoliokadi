@@ -13,17 +13,12 @@
 
         <div class="grid" data-aos="fade-up">
           <div class="texteprojet">
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmo
-              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
-              os et accusam et justo duo dolores et ea rebum. Stet
-              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-              Lorem ipsum dolor sit amet,
-              consetetur sadipscing</p>
+            <p>Hiking est un site web réalisé dans le cadre pédagogique de mon DUT MMI. Ce site web contient des
+              informations sur la randonnée.</p>
             <p>
               <b>Défi : </b>
-              Alors que nous avions une multitude d'idées à inclure dans notre plate-forme holistique, notre principal
-              défi était de définir et d'exécuter notre MVP initial dans un laps de temps extrêmement court avec des
-              ressources très limitées.
+              Le défi fut d'intégrer complétement de A à Z la maquette qui nous a été donné à travers le thème Avada. La
+              version devait etre responsive également.
             </p>
           </div>
           <div class="texteprojet text2">
@@ -33,7 +28,7 @@
             <p>Utilisation du CMS Wordpress</p>
             <div class="survollien">
               <h5>Lien du site web</h5>
-              <p><a href="http://hicking.khadijaboudjemline.fr/">http://hicking.khadijaboudjemline.fr/</a> </p>
+              <p><a href="http://hicking.khadijaboudjemline.fr/">http://hicking.khadijaboudjemline.fr/</a></p>
             </div>
           </div>
         </div>
@@ -45,9 +40,9 @@
 
         <h4>L'HARMONIE COLORÉE</h4>
 
-        <p class="mt-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmo
-          tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
-          os et accusam .</p>
+        <p class="mt-3">L'harmonie colorée nous a été fourni, elle est composée d'un bleu tonique utilisé pour les
+          boutons d'appel à l'action. Et les autres bleus sont utilisés
+          avec partiomonie sur l'ensemble des pages. </p>
 
         <img data-aos="zoom-in" src="../pageprojets/../../assets/site2/harmoniecoloree.jpg" alt="">
         <blockquote>" Un site web réalisé avec le thème infiniment exploitable, Avada. "</blockquote>
@@ -60,28 +55,15 @@
 
           <h4>Interface du site</h4>
           <div class="traitprojet1"></div>
-          <p class="mt-3" >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmo
-            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
-            os et accusam .</p>
+          <p class="mt-3">L'interface est ludique et attractive, on observe plusieurs animations. Et sur la page
+            d'accueil une animation réalisée avec le plugin <b>Slider Revolution</b>.
+            On observe également un footer bien travaillé, et une newsletter fonctionnelle. </p>
         </div>
       </div>
 
       <div class="presentationinterface">
         <img src="../pageprojets/../../assets/site2/mobile.jpg" alt="">
 
-      </div>
-
-      <div class="defbesoins" data-aos="fade-up">
-
-        <h4>Découverte et narration</h4>
-        <p>
-          Dans notre version 1.0, nous voulions donner à l'utilisateur un aperçu rapide de tous les looks et avons opté
-          pour une mise en page de style pinterest. Pour la version 2.0, nous avons décidé de nous éloigner de cette
-          mise en page sur la base de nouvelles informations sur la façon dont les utilisateurs consommaient notre
-          contenu.
-
-          Nous avons remplacé la vue en grille par une approche d'interface éditoriale , où la narration et
-          l'inspiration joueraient un rôle plus important à travers le mélange d'articles et de tutoriels.</p>
       </div>
 
 
@@ -92,9 +74,9 @@
         <div>
           <img width="300" src="../pageprojets/../../assets/projet1.jpg" alt="">
           <p>CONCEPTION DE SITE WEB</p>
-          <h4>Hicking</h4>
+          <h4>Hiking</h4>
           <router-link to="/projet1">
-          <button>Voir</button>
+            <button>Voir</button>
           </router-link>
         </div>
         <div>
@@ -107,14 +89,19 @@
         </div>
       </div>
       <my-footer></my-footer>
+
     </div>
   </div>
 </template>
 
 <script>
+import Footer from "../../Footer";
+
 export default {
   name: "projet2",
-
+  components:{
+    'my-footer': Footer
+  }
 }
 </script>
 
@@ -136,15 +123,14 @@ export default {
   width: 65%;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
+
 .survollien p {
   position: relative;
 }
-
-
 
 
 img {
@@ -187,7 +173,8 @@ button {
   background-color: white;
   border-radius: 10px;
 }
-.autresprojets img{
+
+.autresprojets img {
   height: 210px;
   width: 300px;
 }
@@ -315,7 +302,7 @@ h1 {
 
 }
 
-.presentationinterface img{
+.presentationinterface img {
   max-width: 70%;
   border-radius: 20px;
   border: 0px;
@@ -376,11 +363,12 @@ h1 {
   }
 
   .autresprojets div {
-    margin: 15px  0px;
+    margin: 15px 0px;
     width: 70%;
   }
-  .autresprojets img{
-    height:160px;
+
+  .autresprojets img {
+    height: 160px;
   }
 
   .explicationinterface h4 {
@@ -396,7 +384,7 @@ h1 {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  .autresprojets{
+  .autresprojets {
     flex-wrap: unset;
   }
 }

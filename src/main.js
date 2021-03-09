@@ -39,7 +39,7 @@ new Vue({
   template: '<chargement/>'
 })
 new Vue({
-  el: '#footer',
+  router,
   components: { Footer },
   template: '<Footer/>'
 })

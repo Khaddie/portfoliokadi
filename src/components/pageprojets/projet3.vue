@@ -6,30 +6,29 @@
         <img src="../pageprojets/../../assets/site3/alainresnais.jpg" alt="">
       </div>
       <div class="explicationprojet">
-        <h1>HIKING : <br/>
-          Site web de randonnée</h1>
+        <h1>ALAIN RESNAIS : <br/>
+          Site web d'un réalisateur français</h1>
         <div class="traitprojet"></div>
 
         <div class="grid" data-aos="fade-up">
           <div class="texteprojet">
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmo
-              tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
-              os et accusam et justo duo dolores et ea rebum. Stet
-              clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-              Lorem ipsum dolor sit amet,
-              consetetur sadipscing</p>
+            <p>Ce site web est un site regroupant les informations concernant le réalisateur français <b>Alain Resnais</b>
+            ainsi que sa filmographie, ses meilleurs films. </p>
             <p>
               <b>Défi : </b>
-              Alors que nous avions une multitude d'idées à inclure dans notre plate-forme holistique, notre principal
-              défi était de définir et d'exécuter notre MVP initial dans un laps de temps extrêmement court avec des
-              ressources très limitées.
+              Ce site web a été réalisé dans le cadre pédagogique de mon DUT MMI. Le défi était de réaliser le maquettage complet du site web,
+              son identité visuelle, et enfin son intégration via le framework VuJS. Ce site a été réalisé entièrement en 8h.
             </p>
           </div>
           <div class="texteprojet text2">
             <h5>Rôle</h5>
-            <p> Intégration d'une maquette sur le CMS Wordpress, avec le thème Avada</p>
+            <p>Créer l'interface via Adobe XD</p>
+            <p>Intégrer la maquette via le Framework VueJS</p>
             <h5>Technique</h5>
-            <p>Utilisation du CMS Wordpress</p>
+            <p>Framework VueJS</p>
+            <p>BootstrapVue</p>
+            <p>Adobe XD</p>
+            <p>HTML | CSS</p>
             <div class="survollien">
               <h5>Lien du site web</h5>
               <p><a href="http://hicking.khadijaboudjemline.fr/">http://hicking.khadijaboudjemline.fr/</a> </p>
@@ -44,12 +43,13 @@
 
         <h4>L'HARMONIE COLORÉE</h4>
 
-        <p class="mt-3">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmo
-          tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
-          os et accusam .</p>
+        <p class="mt-3">L'harmonie colorée est simple et s'adapte au style du réalisateur. Un stle plutot sombre, avec
+          des couleurs simples. Le contenu va également etre assez chargé
+          avec les différentes affiches de films. Les typographies utilisées s'harmonisent avec les couleurs, la
+          typographie script casse la rigidité du site.</p>
 
         <img data-aos="zoom-in" src="../pageprojets/../../assets/site3/harmoniecoloree.jpg" alt="">
-        <blockquote>" Un site web réalisé avec le thème infiniment exploitable, Avada. "</blockquote>
+        <blockquote>" Un site web qui retrace la vie d'un réalisateur francais. "</blockquote>
       </div>
 
 
@@ -59,9 +59,8 @@
 
           <h4>Interface du site</h4>
           <div class="traitprojet1"></div>
-          <p class="mt-3" >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmo
-            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero e
-            os et accusam .</p>
+          <p class="mt-3" >La page d'accueil est totalement noire et blanche,
+            cela plonge l'utilisateur directement dans l'univers du réalisateur. L'ensemble du site est simple et compréhensible.</p>
         </div>
       </div>
 
@@ -78,15 +77,11 @@
 
       <div class="defbesoins" data-aos="fade-up">
 
-        <h4>Découverte et narration</h4>
+        <h4>Processus de création</h4>
         <p>
-          Dans notre version 1.0, nous voulions donner à l'utilisateur un aperçu rapide de tous les looks et avons opté
-          pour une mise en page de style pinterest. Pour la version 2.0, nous avons décidé de nous éloigner de cette
-          mise en page sur la base de nouvelles informations sur la façon dont les utilisateurs consommaient notre
-          contenu.
-
-          Nous avons remplacé la vue en grille par une approche d'interface éditoriale , où la narration et
-          l'inspiration joueraient un rôle plus important à travers le mélange d'articles et de tutoriels.</p>
+         Le site devait etre livrable à la fin de la journée, la matinée a été consacrée aux recherches sur le personnage, puis à la création de l'identité visuelle. Ensuite
+        à l'élaboration des différentes pages du site web. L'après-midi a été consacré à l'intégration avec le framework VueJS des diffèrentes pages du site, évidemment
+          le site devait etre disponible sur mobile également. </p>
       </div>
 
 
@@ -160,7 +155,9 @@ a{
 }
 
 
-
+.imgdemarque p{
+  margin: 20px;
+}
 
 img {
   max-width: 100%;

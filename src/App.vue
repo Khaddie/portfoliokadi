@@ -2,9 +2,9 @@
   <div id="app" ref="root">
     <div>
       <div class="logo">
-        <router-link to="/" >
+        <router-link to="/">
 
-         <img src="./assets/23931.png" alt="">
+          <img src="./assets/23931.png" alt="">
         </router-link>
       </div>
       <div>
@@ -16,7 +16,7 @@
           <div class="menu" style="display: none" ref="menu" v-on:click="menuclick">
             <div class="image">
               <div data-project-no="1" class="item item--1 w-100" style=" opacity: 1; z-index: 89;">
-                <img class="imgmenu w-100" src="./assets/a.jpg" alt="">
+                <img class="imgmenu w-100" src="./assets/imagemenu.svg" alt="">
               </div>
             </div>
             <div class="list">
@@ -25,17 +25,17 @@
                   <li><a href="#" data-project-no="1">Logofolio</a></li>
                 </router-link>
                 <router-link to="/Sitesweb">
-                <li ref="fermli"><a href="#" data-project-no="2">Sites Web</a></li>
+                  <li ref="fermli"><a href="#" data-project-no="2">Sites Web</a></li>
                 </router-link>
                 <router-link to="/Créationsgraphiques">
-                <li><a href="#" data-project-no="3">Créations graphiques</a></li>
+                  <li><a href="#" data-project-no="3">Créations graphiques</a></li>
                 </router-link>
                 <router-link to="/Apropos">
-                <li><a href="#" data-project-no="4">À propos</a></li>
+                  <li><a href="#" data-project-no="4">À propos</a></li>
                 </router-link>
 
                 <router-link to="/Contact">
-                <li><a href="#" data-project-no="5">Contact</a></li>
+                  <li><a href="#" data-project-no="5">Contact</a></li>
                 </router-link>
               </ul>
             </div>
@@ -71,12 +71,11 @@ export default {
 <style>
 
 
-
-
-button:hover{
+button:hover {
   transform: scale(0.9);
 }
-.logo img{
+
+.logo img {
   width: 40px;
   height: 40px;
   position: fixed;
@@ -91,6 +90,7 @@ button:hover{
   color: #DBBCA8;
 
 }
+
 .image, .list {
   height: 100%;
 }
@@ -188,7 +188,7 @@ nav:hover::after {
   height: 40px;
   position: absolute;
   z-index: 140;
-border: none;
+  border: none;
   border-radius: 50px;
   box-shadow: #DBBCA8;
   background-image: url("assets/menu.svg");
@@ -228,28 +228,30 @@ border: none;
 }
 
 @media (max-width: 768px) {
-.image{
-  display: none;
-}
+  .image {
+    display: none;
+  }
 
- .list{
-   margin-top: 45%;
- }
+  .list {
+    margin-top: 40%;
+  }
 
-  menu li {
-    font-size: 30px;
-    margin-bottom: 40px;
+  .menu li {
+    font-size: 20px;
+    margin-bottom: 30px;
     font-family: Lato, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
   }
 
   .menu a {
     transition: opacity 300ms ease;
     width: fit-content;
     font-size: 30px;
+    margin-bottom: 10px;
     text-decoration: none;
     color: black;
   }
+
 
 }
 </style>

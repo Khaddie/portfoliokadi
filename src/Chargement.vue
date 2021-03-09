@@ -59,9 +59,9 @@ methods: {
   animation-duration: 3s;
 }
 p {
-  font-family: Montserrat, sans-serif;
-  font-size: 20px;
-  margin-top: 10px;
+  font-family: Lato, sans-serif;
+  font-size: 1rem;
+  margin-top: 2%;
 }
 .fade-enter .fade-leave-active{
   opacity: 0;
