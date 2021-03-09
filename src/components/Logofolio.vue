@@ -11,14 +11,14 @@
     </div>
 
 
-    <div class="meplogos"  v-for="logo in donnees">
+    <div   class="meplogos"  v-for="logo in donnees">
       <div class="logos" v-for="lo in logo.logos">
 
-        <div class="hover" :style="{backgroundImage:`url(${lo.image})`}">
+        <div class="hover" :style="{backgroundImage:`url(${lo.image})`}" data-aos="zoom-in-up">
 
 
-          <div class="texthover">
-            <h2>{{ lo.titre }} </h2>
+          <div  class="texthover" >
+            <h2 >{{ lo.titre }} </h2>
             <p>{{ lo.resume }} </p>
           </div>
         </div>

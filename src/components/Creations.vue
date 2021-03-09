@@ -2,7 +2,7 @@
 
 
   <div class="logofolio">
-    <div class="explicationpage">
+    <div data-aos="flip-right" class="explicationpage">
       <h1>CRÉATIONS GRAPHIQUES </h1>
       <p>Découvrez ci-dessous les différents logos que j'ai réalisés. Certains logos ont été réalisés dans le cadre de
         mes études, pour différents projets
@@ -11,7 +11,7 @@
     </div>
 
     <div>
-   <div class="accueilD">
+   <div data-aos="flip-up" class="accueilD">
      <div class="explicationsection">
      <h2>Créations 3D</h2>
      <p>Retrouvez les projets réalisés en 3D. De simples créations </br>ou encore des créations construites à l'aide
@@ -19,7 +19,7 @@
      </div>
    </div>
     <div class="mpesites" v-for="projet in donnees">
-      <div class="sites" v-for="proj in projet.projetsmax">
+      <div  data-aos="zoom-in-up" class="sites" v-for="proj in projet.projetsmax">
         <div>
           <img width="600" :src="proj.image" alt="">
         </div>
@@ -36,7 +36,7 @@
     </div>
 
 <div>
-    <div class="accueilD">
+    <div  data-aos="flip-up" class="accueilD">
       <div class="explicationsection">
         <h2>Identités visuelles</h2>
         <p>Retrouvez les maquettes réalisées pour des sites web, je suis développeuse front-end mais également webdesigneuse
@@ -46,7 +46,7 @@
     </div>
 
     <div class="mpesites" v-for="creation in donnees">
-      <div class="sites" v-for="crea in creation.maquettes">
+      <div data-aos="zoom-in-up" class="sites" v-for="crea in creation.maquettes">
         <div>
           <img width="600" :src="crea.image" alt="">
         </div>

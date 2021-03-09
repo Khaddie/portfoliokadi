@@ -4,7 +4,7 @@
       <div class="logo">
         <router-link to="/">
 
-          <img src="./assets/23931.png" alt="">
+          <img src="./assets/logo.svg" alt="">
         </router-link>
       </div>
       <div>
@@ -76,10 +76,10 @@ button:hover {
 }
 
 .logo img {
-  width: 40px;
-  height: 40px;
+  width: 10%;
+  height: 80px;
   position: fixed;
-  top: 20px;
+  top: 10px;
   left: 20px;
   z-index: 10;
 }
@@ -252,6 +252,8 @@ nav:hover::after {
     color: black;
   }
 
-
+.logo img{
+  width: 25%;
+}
 }
 </style>

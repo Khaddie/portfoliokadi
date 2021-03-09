@@ -45,9 +45,10 @@ methods: {
 }
 
 .logo{
-  width: 12.5rem;
-  height: 12.5rem;
-  background: url("./assets/a.jpg");
+  width: 10%;
+  height: 10%;
+  background: url("./assets/logo.svg");
+  background-repeat: no-repeat;
 }
 
 .fade-enter-active .fade-leave-active {

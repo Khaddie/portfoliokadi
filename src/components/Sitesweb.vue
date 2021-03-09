@@ -1,6 +1,5 @@
 <template>
   <div class="sitesweb">
-    <chargement/>
     <div class="explicationpage">
       <h1>SITES WEB</h1>
       <p>Découvrez sans perdre de temps mes derniers sites web. N'hésitez pas à les explorer afin de découvrir le
@@ -10,7 +9,7 @@
     </div>
 
     <div class="mpesites" v-for="site in donnees">
-      <div class="sites" v-for="si in site.sitesweb">
+      <div data-aos="zoom-out-up" class="sites" v-for="si in site.sitesweb">
         <div>
           <img width="600" :src="si.image" alt="">
         </div>
@@ -31,13 +30,11 @@
 
 
 <script>
-import Chargement from "../Chargement";
 import Footer from "../Footer";
 
 export default {
   name: "Sitesweb",
   components: {
-    Chargement,
     'my-footer': Footer
   },
   data() {

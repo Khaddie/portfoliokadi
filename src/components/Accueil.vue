@@ -45,28 +45,28 @@
       <div class="qualite mt-5 ">
         <h4 class="text-center">Je suis...</h4>
         <div class="grid">
-          <div>
+          <div data-aos="fade-right">
             <div class="imgqualite">
               <img class="w-50" src="../assets/imgcreative.svg" alt="">
             </div>
             <p class="titrequalite">Créative</p>
             <p class="qualitephrase">De la maquette graphique à l'intégration Web.</p>
           </div>
-          <div>
+          <div data-aos="fade-right">
             <div class="imgqualite">
               <img class="w-50" src="../assets/imgrelationnelle.svg" alt="">
             </div>
             <p class="titrequalite">Relationnelle</p>
             <p class="qualitephrase">A la fois autonome et coopérative, je peux jouer seule et en équipe</p>
           </div>
-          <div>
+          <div data-aos="fade-left">
             <div class="imgqualite">
               <img class="w-50" src="../assets/imgpolyvalente.svg" alt="">
             </div>
             <p class="titrequalite">Polyvalente</p>
             <p class="qualitephrase">Compétente dans tous les domaines, chaque projet est pour moi un challenge ! </p>
           </div>
-          <div>
+          <div data-aos="fade-left">
             <div class="imgqualite">
               <img class="w-50" src="../assets/imgdynamique.svg" alt="">
             </div>
@@ -80,7 +80,7 @@
       <div class="competence">
         <h4>Mes compétences</h4>
         <div class="competences">
-          <div>
+          <div data-aos="flip-left">
             <div class="imgcompetence">
               <img src="../assets/iconedev.svg" alt="">
             </div>
@@ -97,7 +97,7 @@
           </div>
 
 
-          <div>
+          <div data-aos="flip-left">
             <div class="imgcompetence">
               <img src="../assets/iconeweb.svg" alt="">
             </div>
@@ -114,7 +114,7 @@
           </div>
 
 
-          <div>
+          <div data-aos="flip-left">
             <div class="imgcompetence">
               <img src="../assets/iconecom.svg" alt="">
             </div>
@@ -136,37 +136,44 @@
       <div class="mesprojets">
 
 
-        <div class="projet1 mt-5">
-          <div class="imgprojets">
-            <img src="../assets/projet1.jpg" alt="">
-          </div>
-          <div class="carre">
-          </div>
-          <div class="contenuprojet">
-            <h4>CONCEPTION DE SITE WEB</h4>
-            <p>Cake Beauty : <br/>
-              Site vitrine de pâtisseries </p>
-            <div class="traitprojet"></div>
-            <button class="btnprojet">
-              <router-link to="/projet1">Voir le projet</router-link></button>
-          </div>
-        </div>
-
-        <div class="w-100">
-          <div class="projet2 mt-5">
+        <div data-aos="zoom-in-up">
+          <div class=" mt-5 premier">
             <div class="contenuprojet2">
-              <h4>CONCEPTION LOGO</h4>
-              <p>Methodiya :<br/>
-                La lecture et ses bienfaits</p>
+              <h4>CONCEPTION <br>DE LOGOS</h4>
+              <p>Découvrez le  <br/>
+                Logofolio</p>
               <div class="traitprojet"></div>
-              <button class="btnprojet"><router-link to="/Logofolio">Logofolio </router-link></button>
+              <button class="btnprojet">
+                <router-link to="/Logofolio">Logofolio</router-link>
+              </button>
 
             </div>
             <div class="carre">
 
             </div>
             <div class="imgprojets">
-              <img src="../assets/projet1.jpg" alt="">
+              <img src="../assets/imagesb.jpg" alt="">
+            </div>
+          </div>
+
+        </div>
+        <div data-aos="zoom-in-up">
+          <div class="projet2 mt-5">
+            <div class="contenuprojet2">
+              <h4>CONCEPTION <br>D'IDENTITÉ VISUELLE</h4>
+              <p>Sarah Birouk :<br/>
+                Makeup Artist</p>
+              <div class="traitprojet"></div>
+              <button class="btnprojet spec">
+                <router-link to="/projet5">Voir le projet</router-link>
+              </button>
+
+            </div>
+            <div class="carre">
+
+            </div>
+            <div class="imgprojets">
+              <img src="../assets/imagesb.jpg" alt="">
             </div>
           </div>
 
@@ -204,10 +211,18 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-a{
+
+.premier {
+  flex-direction: row-reverse;
+  display: flex;
+
+}
+
+a {
   text-decoration: none;
   color: black;
 }
+
 i {
   font-size: 2rem;
   color: #DBBCA8;
@@ -273,9 +288,10 @@ ul li {
 }
 
 
-.projet1 img{
+.projet1 img {
   width: 80%;
 }
+
 .imgaccueil {
   margin: 5%;
 }
@@ -391,11 +407,6 @@ h5 {
   left: 0%
 }
 
-.contenuprojet {
-  align-self: center;
-  position: relative;
-  right: 15%;
-}
 
 .carre {
   height: 400px;
@@ -405,13 +416,6 @@ h5 {
   opacity: 0.5;
 }
 
-.projet1 {
-  display: flex;
-  justify-content: left;
-  justify-items: center;
-  flex-direction: row;
-
-}
 
 .projet2 {
   display: flex;
@@ -537,20 +541,17 @@ h5 {
 
   }
 
-
-  .projet1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  #app > div.accueil > div.accueilmarge > div.mesprojets > div:nth-child(1) > div{
+    flex-direction: column-reverse;
   }
 
-  .projet2 {
+  .projet2  {
     flex-direction: column-reverse;
     justify-content: center;
     display: flex;
   }
 
-  .contenuprojet, .contenuprojet2 {
+  .contenuprojet2 {
     right: 0px;
     margin-top: 2%;
     left: 0px;
@@ -564,6 +565,7 @@ h5 {
   .traitprojet {
     margin-left: 45%;
   }
+
   .btnprojet {
     border: 1px solid black;
     padding: 0.5rem 1rem;
@@ -579,6 +581,7 @@ h5 {
   }
 
 }
+
 @media (max-width: 768px) {
 
   .accueil {
@@ -697,11 +700,8 @@ h5 {
 
   }
 
-
-  .projet1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  .premier {
+    flex-direction: column-reverse;
   }
 
   .projet2 {
@@ -710,7 +710,7 @@ h5 {
     display: flex;
   }
 
-  .contenuprojet, .contenuprojet2 {
+  .contenuprojet2 {
     right: 0px;
     margin-top: 2%;
     left: 0px;
@@ -732,6 +732,14 @@ h5 {
     margin-bottom: 1rem;
     text-align: center;
     margin-left: 27%;
+  }
+
+  .projet2 .btnprojet {
+    margin-left:22%;
+  }
+
+  .premier .btnprojet {
+    margin-left: 15%;
   }
 
   .imgprojets {
