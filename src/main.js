@@ -13,7 +13,6 @@ import "aos/dist/aos.css";
 Vue.config.productionTip = true
 
 
-
 // Import de Bootstrap-vue
 import BootstrapVue from 'bootstrap-vue'
 // Bibliothèque de Bootstrap-vue
@@ -42,11 +41,12 @@ new Vue({
 })
 new Vue({
   router,
-  components: { Footer },
+  components: {Footer},
   template: '<Footer/>'
 })
 new Vue({
+  el: '#nav',
   router,
-  components: { Nav },
+  components: {Nav},
   template: '<Nav/>'
 })

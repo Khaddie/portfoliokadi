@@ -65,7 +65,7 @@ a {
   color: black;
   margin-top: 1.5rem;
   position: relative;
-
+text-decoration: none;
 
 }
 

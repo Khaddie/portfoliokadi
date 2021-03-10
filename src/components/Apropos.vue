@@ -52,6 +52,7 @@
           <i class="fab fa-dribbble"><a href="#"></a></i>
           <i class="fab fa-pinterest"><a href="#"></a></i>
           <i class="fab fa-behance"><a href="#"></a></i>
+          <i class="fab fa-linkedin"><a href="https://www.linkedin.com/in/khadija-boudjemline-2992991b7/?originalSubdoma"></a></i>
         </div>
       </div>
 
