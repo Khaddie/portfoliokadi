@@ -1,12 +1,7 @@
 <template>
   <div id="app" ref="root">
     <div>
-      <div class="logo">
-        <router-link to="/">
 
-          <img src="./assets/logo.svg" alt="Logo Khadija Boudjemline">
-        </router-link>
-      </div>
       <div>
         <my-nav></my-nav>
       </div>
@@ -28,6 +23,13 @@ export default {
 </script>
 
 <style>
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+}
 
 a:hover{
   text-decoration: none;

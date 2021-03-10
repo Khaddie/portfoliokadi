@@ -1,5 +1,13 @@
 <template>
   <div id="nav" ref="root">
+    <div>
+    <div class="logo">
+      <router-link to="/">
+
+        <img src="./assets/logo.svg" alt="Logo Khadija Boudjemline">
+      </router-link>
+    </div>
+    </div>
     <nav>
       <button class="menubtn" v-on:click="menuclick">
       <span>
@@ -87,7 +95,14 @@ export default {
   margin-top: 20%;
   padding: 20px;
 }
-
+.logo img {
+  width: 10%;
+  height: 80px;
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  z-index: 10;
+}
 
 .menu li {
   font-size: 40px;
@@ -234,6 +249,10 @@ nav:hover::after {
     margin-bottom: 10px;
     text-decoration: none;
     color: black;
+  }
+
+  .logo img{
+    width: 25%;
   }
 }
 </style>

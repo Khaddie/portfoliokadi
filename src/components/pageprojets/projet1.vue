@@ -68,10 +68,9 @@
       </div>
 
       <div class="presentationinterface">
-
         <video controls data-aos="fade-up">
 
-          <source src="../pageprojets/../../assets/video/cakebeauty.mp4"
+          <source src="https://khadijaboudjemline.fr/images/sitesweb/pr%C3%A9sentationpage/videocakebeauty.mp4"
                   type="video/mp4">
         </video>
 
