@@ -1,4 +1,4 @@
-<template xmlns="http://www.w3.org/1999/html">
+<template>
 
 
   <div class="logofolio">
@@ -70,7 +70,7 @@
 import Footer from "../Footer";
 
 export default {
-  name: "Créations",
+  name: "Creation",
   components: {
     'my-footer': Footer
   },

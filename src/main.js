@@ -4,12 +4,14 @@ import Vue from 'vue';
 import App from './App';
 import Chargement from "./Chargement";
 import Footer from "./Footer";
+import Nav from "./Nav";
 import router from './router';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true
+
 
 
 // Import de Bootstrap-vue
@@ -42,4 +44,9 @@ new Vue({
   router,
   components: { Footer },
   template: '<Footer/>'
+})
+new Vue({
+  router,
+  components: { Nav },
+  template: '<Nav/>'
 })

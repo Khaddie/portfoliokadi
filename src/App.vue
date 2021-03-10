@@ -22,20 +22,20 @@
             <div class="list">
               <ul v-on:click="fermeture">
                 <router-link to="/Logofolio">
-                  <li><a href="#" data-project-no="1">Logofolio</a></li>
+                  <li>Logofolio</li>
                 </router-link>
                 <router-link to="/Sitesweb">
-                  <li ref="fermli"><a href="#" data-project-no="2">Sites Web</a></li>
+                  <li ref="fermli">Sites Web</li>
                 </router-link>
-                <router-link to="/Créationsgraphiques">
-                  <li><a href="#" data-project-no="3">Créations graphiques</a></li>
+                <router-link to="/Creations">
+                  <li>Créations graphiques</li>
                 </router-link>
                 <router-link to="/Apropos">
-                  <li><a href="#" data-project-no="4">À propos</a></li>
+                  <li>À propos</li>
                 </router-link>
 
                 <router-link to="/Contact">
-                  <li><a href="#" data-project-no="5">Contact</a></li>
+                  <li>Contact</li>
                 </router-link>
               </ul>
             </div>
@@ -129,7 +129,14 @@ button:hover {
   text-decoration: none;
   color: black;
 }
-
+a{
+  text-decoration: none;
+  color: black;
+}
+ a:hover{
+   text-decoration: none;
+   color: black;
+ }
 .menu a:hover {
   opacity: .4;
   text-decoration: none;
@@ -189,6 +196,8 @@ nav:hover::after {
   position: absolute;
   z-index: 140;
   border: none;
+  top: 17px;
+  left: 14px;
   border-radius: 50px;
   box-shadow: #DBBCA8;
   background-image: url("assets/menu.svg");

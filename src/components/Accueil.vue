@@ -26,10 +26,12 @@
         <div class="textpresentation ">
           <h3>Besoin d'une webdesigneuse, développeuse front-end ?<br/>
             Je peux vous aider ! </h3>
-          <p>J'habite dans la région du Doubs (25), j'ai 19ans et je suis actuellement étudiante. Ma formation s'intitule
-            DUT des métiers du web et du multimédia, je suis depuis près de deux ans cette formation qui permet d'acquérir
+          <p>J'habite dans la région du Doubs (25), j'ai 19ans et je suis actuellement étudiante en
+            DUT des métiers du web et du multimédia (DUT MMI), je suis depuis près de deux ans cette formation qui permet d'acquérir
             des compétences dans le domaine du web, à savoir : la programmation, le graphisme, l'intégration...
-            tout ce qui touche au monde tentaculeux des sites web. </p>
+            tout ce qui touche au monde tentaculeux des sites web.
+            Je suis actuellement en alternance dans un e-commerce, pour une période de six mois.
+          </p>
           <h6>Suivez-moi sur mes réseaux sociaux :</h6>
           <div class="icone">
             <a href="https://www.instagram.com/kaddichou/?hl=fr"><i class="fab fa-instagram"></i></a>
@@ -165,7 +167,7 @@
                 Makeup Artist</p>
               <div class="traitprojet"></div>
               <button class="btnprojet spec">
-                <router-link to="/projet5">Voir le projet</router-link>
+                <router-link to="/projet4">Voir le projet</router-link>
               </button>
 
             </div>

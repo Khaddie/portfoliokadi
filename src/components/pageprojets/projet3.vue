@@ -16,7 +16,7 @@
             <p>
               <b>Défi : </b>
               Ce site web a été réalisé dans le cadre pédagogique de mon DUT MMI. Le défi était de réaliser le maquettage complet du site web,
-              son identité visuelle, et enfin son intégration via le framework VuJS. La totalité de ces étapes a été réalisée en 8h exactement.
+              son identité visuelle, et enfin son intégration via le framework VuJS. La totalité de ces étapes a été réalisée en deux jours exactement.
             </p>
           </div>
           <div class="texteprojet text2">
@@ -79,8 +79,8 @@
         <h4>Processus de création</h4>
         <p>
          Le site devait etre livrable à la fin de la journée, la matinée a été consacrée aux recherches sur le personnage, puis à la création de l'identité visuelle. Ensuite
-        à l'élaboration des différentes pages du site web. L'après-midi a été consacré à l'intégration avec le framework VueJS des diffèrentes pages du site, évidemment
-          le site devait etre disponible sur mobile également. </p>
+        à l'élaboration des différentes pages du site web. L'après-midi a été consacré à l'intégration en HTML / CSS des diffèrentes pages du site, évidemment
+          le site devait etre disponible sur mobile également. La deuxième journée fut consacrée à l'intégration du projet avec le framework VueJS.</p>
       </div>
 
 
